@@ -54,7 +54,7 @@
             m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
         })(window, document, 'script', 'analytics.js'/*tpa=http://www.google-analytics.com/analytics.js*/, 'ga');
 
-        ga('create', 'UA-35598290-4', 'http://demo.fuviz.com/reen/v1-4/fuviz.com');
+        ga('create', 'UA-35598290-4', ' ');
         ga('send', 'pageview');
     </script>
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -88,7 +88,7 @@
 
                     <!-- ============================================================= LOGO MOBILE ============================================================= -->
 
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="Default.aspx">
                         <img src="images/logo.png" class="logo" alt=""></a>
 
                     <!-- ============================================================= LOGO MOBILE : END ============================================================= -->
@@ -243,13 +243,13 @@
                             <!-- /.dropdown -->
 
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">KURUMSAL</a>
+                                <a href="kurumsal.aspx" class="dropdown-toggle" data-toggle="dropdown">KURUMSAL</a>
 
                                 <ul class="dropdown-menu">
-                                    <li><a href="portfolio.html">HAKKIMIZDA</a></li>
-                                    <li><a href="portfolio2.html">MEDİKAL KADROMUZ</a></li>
-                                    <li><a href="portfolio3.html">KLİNİĞİMİZ</a></li>
-                                    <li><a href="portfolio4.html">BASINDA ESTENUANCE</a></li>
+                                    <li><a href="#">HAKKIMIZDA</a></li>
+                                    <li><a href="#">MEDİKAL KADROMUZ</a></li>
+                                    <li><a href="#">KLİNİĞİMİZ</a></li>
+                                    <li><a href="#">BASINDA ESTENUANCE</a></li>
                                 </ul>
                                 <!-- /.dropdown-menu -->
                             </li>
