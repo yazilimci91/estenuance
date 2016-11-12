@@ -1,8 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="iletisim.aspx.cs" Inherits="estenuance.iletisim" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-   	<main>
+    <main>
 			
 			<!-- ============================================================= SECTION – MAP ============================================================= -->
 			
@@ -19,17 +20,17 @@
 						
 						<div class="col-md-8 inner-right inner-bottom-xs">
 							<header>
-								<h1>Get in touch</h1>
-								<p>Do you want to know more? We’d love to hear from you!</p>
+								<h1> Hizmetinizdeyiz.</h1>
+								<p>İletişim formunu doldurun biz sizi arayalım...</p>
 							</header>
 						</div><!-- /.col -->
 						
 						<div class="col-md-4">
-							<h3 style="margin-top: 8px;">REEN</h3>
+							<h3 style="margin-top: 8px;">ESTENUANCE</h3>
 							<ul class="contacts">
-								<li><i class="icon-location contact"></i> 84 Street, City, State 24813</li>
-								<li><i class="icon-mobile contact"></i> +00 (123) 456 78 90</li>
-								<li><a href="mailto:info@reen.com"><i class="icon-mail-1 contact"></i> info@reen.com</a></li>
+								<li><i class="icon-location contact"></i> Abdi İpekçi Cad. No:21 Nil Apt. K:3 D:4 Nişantaşı /İSTANBUL</li>
+								<li><i class="icon-mobile contact"></i> 0212 234 6713 - 0534 467 1608</li>
+								<li><a href="mailto:info@estenuance.com"><i class="icon-mail-1 contact"></i> info@estenuance.com</a></li>
 							</ul><!-- /.contacts -->
 						</div><!-- /.col -->
 						
@@ -44,188 +45,71 @@
 					
 					<div class="col-md-8 inner-right inner-bottom-md">
 						
-						<!-- ============================================================= SECTION – CONTACT FORM ============================================================= -->
+						<!-- ============================================================= İletişim Formu ============================================================= -->
 						
 						<section id="contact-form">
 							
-							<h2>Leave a Message</h2>
+							<h2>Bize ulaşın...</h2>
 							
-							<form id="contactform" class="forms" action="http://demo.fuviz.com/reen/v1-4/contact.php" method="post">
-								
+						 
 								<div class="row">
 									<div class="col-sm-6">
-										<input type="text" name="name" class="form-control" placeholder="Name (Required)">
-									</div><!-- /.col -->
-								</div><!-- /.row -->
-								
-								<div class="row">
-									<div class="col-sm-6">
-										<input type="email" name="email" class="form-control" placeholder="Email (Required)">
+										<asp:TextBox ID="TextBox1" PlaceHolder="Ad-Soyad" CssClass="form-control" runat="server"></asp:TextBox>
+                                        <br />
+										 
 									</div><!-- /.col -->
 								</div><!-- /.row -->
 								
 								<div class="row">
 									<div class="col-sm-6">
-										<input type="text" name="subject" class="form-control" placeholder="Subject">
+										<asp:TextBox ID="TextBox2" PlaceHolder="Email" CssClass="form-control" runat="server" TextMode="Email"></asp:TextBox>
+                                        <br />
+										 
 									</div><!-- /.col -->
 								</div><!-- /.row -->
 								
 								<div class="row">
-									<div class="col-sm-12">
-										<textarea name="message" class="form-control" placeholder="Enter your message ..."></textarea>
-									</div><!-- /.col -->
+									<div class="col-sm-6">
+										<asp:TextBox ID="TextBox3" PlaceHolder="Telefon" CssClass="form-control"  runat="server"></asp:TextBox>
+                                        <br />
+										 <!-- /.col -->
 								</div><!-- /.row -->
+
+                                    </div>
+
+								<div class="row">
+									<div class="col-sm-6">
+										<asp:DropDownList ID="DropDownList1" runat="server">
+                                            <asp:ListItem>Saç Ekim Önceliğiniz</asp:ListItem>
+                                            <asp:ListItem>Kalite</asp:ListItem>
+                                            <asp:ListItem>Fiyat</asp:ListItem>
+                                            <asp:ListItem>Doğal Görünüm</asp:ListItem>
+                                            <asp:ListItem>Doktor</asp:ListItem>
+                                        </asp:DropDownList>
+                                        <br />
+										  
+									</div><!-- /.col -->
+								</div>
+
+                                    <div class="row">
+									<div class="col-sm-6">
+										<asp:TextBox ID="TextBox4" PlaceHolder="Mesaj" CssClass="form-control"  runat="server" TextMode="MultiLine"></asp:TextBox>
+                                        <br />
+										 <!-- /.col -->
+								</div>
+								 </div>
 								
-								<button type="submit" class="btn btn-default btn-submit">Submit message</button>
-								
-							</form>
-							
+								    <asp:Button ID="Button1" CssClass="btn btn-default btn-submit" runat="server" Text="Formu Gönder" OnClick="Button1_Click" />
+                                    <br />
+                            <asp:Label ID="Label1" runat="server"></asp:Label>
+                                    <br /> 
+							 
 							<div id="response"></div>
-							
 						</section>
 						
 						<!-- ============================================================= SECTION – CONTACT FORM : END ============================================================= -->
 						
 					</div><!-- ./col -->
-					
-					<div class="col-md-4">
-						
-						<!-- ============================================================= SECTION – CONTACT NAMES ============================================================= -->
-						
-						<section id="contact-names" class="light-bg inner-xs inner-left-xs inner-right-xs">
-								
-							<h3 class="team-headline sidelines text-center"><span>Contact names</span></h3>
-							
-							<div class="row thumbs gap-md text-center">
-								
-								<div class="col-sm-6 thumb">
-									<figure class="member">
-										
-										<div class="member-image">
-											
-											<div class="text-overlay">
-												<div class="info">
-													<ul class="social">
-														<li><a href="#"><i class="icon-s-facebook"></i></a></li>
-														<li><a href="#"><i class="icon-s-gplus"></i></a></li>
-														<li><a href="#"><i class="icon-s-twitter"></i></a></li>
-													</ul><!-- /.social -->
-												</div><!-- /.info -->
-											</div><!-- /.text-overlay -->
-											
-											<img src="human03.jpg" tppabs="http://demo.fuviz.com/reen/v1-4/assets/images/art/human03.jpg">
-											
-										</div><!-- /.member-image -->
-										
-										<figcaption class="member-details bordered no-top-border">
-											<h3>
-												Chris Cavill 
-												<span>Creative Director</span>
-											</h3>
-										</figcaption>
-										
-									</figure>
-								</div><!-- /.col -->
-								
-								<div class="col-sm-6 thumb">
-									<figure class="member">
-										
-										<div class="member-image">
-											
-											<div class="text-overlay">
-												<div class="info">
-													<ul class="social">
-														<li><a href="#"><i class="icon-s-facebook"></i></a></li>
-														<li><a href="#"><i class="icon-s-gplus"></i></a></li>
-														<li><a href="#"><i class="icon-s-twitter"></i></a></li>
-													</ul><!-- /.social -->
-												</div><!-- /.info -->
-											</div><!-- /.text-overlay -->
-											
-											<img src="human01.jpg" tppabs="http://demo.fuviz.com/reen/v1-4/assets/images/art/human01.jpg">
-											
-										</div><!-- /.member-image -->
-										
-										<figcaption class="member-details bordered no-top-border">
-											<h3>
-												Amber Jones 
-												<span>Marketing Director</span>
-											</h3>
-										</figcaption>
-										
-									</figure>
-								</div><!-- /.col -->
-								
-							</div><!-- /.row -->
-							
-							<div class="row thumbs gap-md text-center">
-								
-								<div class="col-sm-6 thumb last-bottom">
-									<figure class="member">
-										
-										<div class="member-image">
-											
-											<div class="text-overlay">
-												<div class="info">
-													<ul class="social">
-														<li><a href="#"><i class="icon-s-facebook"></i></a></li>
-														<li><a href="#"><i class="icon-s-gplus"></i></a></li>
-														<li><a href="#"><i class="icon-s-twitter"></i></a></li>
-													</ul><!-- /.social -->
-												</div><!-- /.info -->
-											</div><!-- /.text-overlay -->
-											
-											<img src="human05.jpg" tppabs="http://demo.fuviz.com/reen/v1-4/assets/images/art/human05.jpg">
-											
-										</div><!-- /.member-image -->
-										
-										<figcaption class="member-details bordered no-top-border">
-											<h3>
-												Sophie Adams 
-												<span>Technical Director</span>
-											</h3>
-										</figcaption>
-										
-									</figure>
-								</div><!-- /.col -->
-								
-								<div class="col-sm-6 thumb last-bottom">
-									<figure class="member">
-										
-										<div class="member-image">
-											
-											<div class="text-overlay">
-												<div class="info">
-													<ul class="social">
-														<li><a href="#"><i class="icon-s-facebook"></i></a></li>
-														<li><a href="#"><i class="icon-s-gplus"></i></a></li>
-														<li><a href="#"><i class="icon-s-twitter"></i></a></li>
-													</ul><!-- /.social -->
-												</div><!-- /.info -->
-											</div><!-- /.text-overlay -->
-											
-											<img src="human04.jpg" tppabs="http://demo.fuviz.com/reen/v1-4/assets/images/art/human04.jpg">
-											
-										</div><!-- /.member-image -->
-										
-										<figcaption class="member-details bordered no-top-border">
-											<h3>
-												Toby Evans
-												<span>Senior Designer</span>
-											</h3>
-										</figcaption>
-										
-									</figure>
-								</div><!-- /.col -->
-								
-							</div><!-- /.row -->
-							
-						</section>
-						
-						<!-- ============================================================= SECTION – CONTACT NAMES : END ============================================================= -->
-						
-					</div><!-- /.col -->
-						
 				</div><!-- /.row -->
 			</div><!-- /.container -->
 			
