@@ -7,14 +7,18 @@
 			
 			<!-- ============================================================= SECTION – MAP ============================================================= -->
 			
-			<section id="map" class="height-sm"></section>
+			<section id="map" class="height-sm">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8511.090426581986!2d28.95457382914655!3d41.04439813856469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7503290f36d%3A0xba4d5a15ce85fe24!2zS2FwdGFucGHFn2EsIE5pbCBTay4gTm86MyBEOmssIDM0NDQwIEJleW_En2x1L8Swc3RhbmJ1bA!5e0!3m2!1str!2str!4v1478994169636" width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+			</section>
 			
 			<!-- ============================================================= SECTION – MAP : END ============================================================= -->
 			
 			
 			<!-- ============================================================= SECTION – HERO ============================================================= -->
 			
-			<section id="hero" class="dark-bg img-bg img-bg-soft" style="background-image: url(slider02.jpg)/*tpa=http://demo.fuviz.com/reen/v1-4/assets/images/art/slider02.jpg*/;">
+			<section id="hero" class="dark-bg img-bg img-bg-soft" style="background-image: url(slider02.jpg)">
 				<div class="container inner-top-md inner-bottom-sm">
 					<div class="row">
 						
