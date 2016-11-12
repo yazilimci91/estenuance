@@ -10,7 +10,7 @@
 			<section id="hero">
 				<div id="owl-main" class="owl-carousel height-md owl-inner-nav owl-ui-lg">
 					
-					<div class="item" style="background-image: url(slider01.jpg)/*tpa=http://demo.fuviz.com/reen/v1-4/assets/images/art/slider01.jpg*/;">
+					<div class="item" style="background-image: url(images/slider01.jpg)">
 						<div class="container">
 							<div class="caption vertical-center text-center">
 								
