@@ -14,13 +14,13 @@
 			
 			<!-- ============================================================= SECTION – HERO ============================================================= -->
 			
-			<section id="hero" class="dark-bg img-bg img-bg-soft" style="background-image: url(slider02.jpg)/*tpa=http://demo.fuviz.com/reen/v1-4/assets/images/art/slider02.jpg*/;">
+			<section id="hero" class="dark-bg img-bg img-bg-soft" style="background-image: url(images/slider02.jpg)">
 				<div class="container inner-top-md inner-bottom-sm">
 					<div class="row">
 						
 						<div class="col-md-8 inner-right inner-bottom-xs">
 							<header>
-								<h1> Hizmetinizdeyiz.</h1>
+								<h1>BİZE ULAŞIN</h1>
 								<p>İletişim formunu doldurun biz sizi arayalım...</p>
 							</header>
 						</div><!-- /.col -->
