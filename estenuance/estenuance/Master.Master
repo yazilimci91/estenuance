@@ -77,8 +77,15 @@
                     <!-- /.info -->
 
                     <ul class="social pull-right">
+                        
+                        <li><a href="#"><i class="icon-s-facebook"></i></a></li>
+                        <li><a href="#"><i class="icon-s-gplus"></i></a></li>
+                        <li><a href="#"><i class="icon-s-twitter"></i></a></li>
+                        <li><a href="#"><i class="icon-s-pinterest"></i></a></li>
+                        <li><a href="#"><i class="icon-s-behance"></i></a></li>
+                        <li><a href="#"><i class="icon-s-dribbble"></i></a></li>
                         <li  > 
-                            <select class="social pull-right" onchange="location = this.value;">
+                            <select class="social pull-right" onchange="location = this.value;" style="font-family:'Source Sans Pro', sans-serif">
                                  <option  value="Default.aspx"> TR</option>
                                 <option value="http://en.estenuance.com"> EN</option>
                                 <option value="http://ar.estenuance.com"> AR</option>
@@ -86,12 +93,6 @@
                             </select>
 
                         </li>
-                        <li><a href="#"><i class="icon-s-facebook"></i></a></li>
-                        <li><a href="#"><i class="icon-s-gplus"></i></a></li>
-                        <li><a href="#"><i class="icon-s-twitter"></i></a></li>
-                        <li><a href="#"><i class="icon-s-pinterest"></i></a></li>
-                        <li><a href="#"><i class="icon-s-behance"></i></a></li>
-                        <li><a href="#"><i class="icon-s-dribbble"></i></a></li>
                     </ul>
                     <!-- /.social -->
 
@@ -252,7 +253,7 @@
                             <!-- /.dropdown -->
 
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">KURUMSAL</a>
+                                <a href="kurumsal.aspx" class="dropdown-toggle" data-toggle="dropdown">KURUMSAL</a>
 
                                 <ul class="dropdown-menu">
                                     <li><a href="portfolio.html">HAKKIMIZDA</a></li>

@@ -7,7 +7,12 @@
 			
 			<!-- ============================================================= SECTION – MAP ============================================================= -->
 			
-			<section id="map" class="height-sm"></section>
+			<section id="map" class="height-sm">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.875181896138!2d28.989679214974263!3d41.04985857929655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab70c3f183d47%3A0x89676087f8943761!2zSGFyYml5ZSwgQWJkaSDEsHBla8OnaSBDZC4gTm86MjEsIDM0MzY3IMWeacWfbGkvxLBzdGFuYnVs!5e0!3m2!1str!2str!4v1479027332291" width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+			</section>
 			
 			<!-- ============================================================= SECTION – MAP : END ============================================================= -->
 			
