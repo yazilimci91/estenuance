@@ -260,7 +260,7 @@
 								<h1>Want to work with us?</h1>
 								<p>Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam.</p>
 							</header>
-							<a href="contact.html" tppabs="http://demo.fuviz.com/reen/v1-4/contact.html" class="btn btn-large">Get in touch</a>
+							<a href="contact.html"  class="btn btn-large">Get in touch</a>
 						</div><!-- /.col -->
 					</div><!-- /.row -->
 				</div><!-- /.container -->
