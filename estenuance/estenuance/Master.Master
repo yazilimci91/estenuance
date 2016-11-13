@@ -77,6 +77,15 @@
                     <!-- /.info -->
 
                     <ul class="social pull-right">
+                        <li  > 
+                            <select class="social pull-right" onchange="location = this.value;">
+                                 <option  value="Default.aspx"> TR</option>
+                                <option value="en.estenuance.com"> EN</option>
+                                <option value="ar.estenuance.com"> AR</option>
+
+                            </select>
+
+                        </li>
                         <li><a href="#"><i class="icon-s-facebook"></i></a></li>
                         <li><a href="#"><i class="icon-s-gplus"></i></a></li>
                         <li><a href="#"><i class="icon-s-twitter"></i></a></li>
