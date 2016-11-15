@@ -345,33 +345,30 @@
                         <div class="col-xs-6 thumb reset-padding">
                             
                             <a href="#" class="btn-share-xs">
-							<i class="icon-s-gplus"></i>
+							<i class="icon-s-facebook"></i>
 						</a>
                             
                         </div>
                         <!-- /.thumb -->
 
                         <div class="col-xs-6 thumb">
-                            <figure class="icon-overlay icn-link">
-                                <a href="portfolio-post.html">
-                                    <img src="images/work03.jpg" alt=""></a>
-                            </figure>
+                               <a href="#" class="btn-share-xs">
+							<i class="icon-s-twitter"></i>
+						</a>
                         </div>
                         <!-- /.thumb -->
 
                         <div class="col-xs-6 thumb">
-                            <figure class="icon-overlay icn-link">
-                                <a href="portfolio-post.html">
-                                    <img src="images/work07.jpg" alt=""></a>
-                            </figure>
+                                <a href="#" class="btn-share-xs">
+							<i class="icon-s-instagram"></i>
+						</a>
                         </div>
                         <!-- /.thumb -->
 
                         <div class="col-xs-6 thumb">
-                            <figure class="icon-overlay icn-link">
-                                <a href="portfolio-post.html">
-                                    <img src="images/work01.jpg" alt=""></a>
-                            </figure>
+                                <a href="#" class="btn-share-xs">
+							<i class="icon-s-gplus"></i>
+						</a>
                         </div>
                         <!-- /.thumb -->
 
