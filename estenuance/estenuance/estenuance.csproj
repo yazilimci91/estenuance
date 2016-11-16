@@ -106,6 +106,8 @@
     <Content Include="images\client10.jpg" />
     <Content Include="images\client11.jpg" />
     <Content Include="images\client12.jpg" />
+    <Content Include="images\close.png" />
+    <Content Include="images\contact.png" />
     <Content Include="images\favicon.ico" />
     <Content Include="images\favicon.png" />
     <Content Include="images\grabbing.png" />

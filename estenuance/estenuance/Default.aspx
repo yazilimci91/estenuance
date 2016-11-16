@@ -40,33 +40,38 @@
 
         #popupfoot {
             font-size: 16pt;
-            position: absolute;
-            bottom: 0px;
-            width: 250px;
-            left: 250px;
-        }
+            position: relative;
+            top: 0px;
+            width: 20px;
+            right:0;
+            margin-right:50px;
+            margin-left:50px;
+            margin-top:30px;
+
+            
+                    }
     </style>
 
 
-    <div id="boxes" style="background-color:#1ABB9C">
-        <div id="dialog" class="window" style="background-color:#1ABB9C">
-            <section id="contact-form">
-
-                <h2 style="color:#f5f3f3">Bize ulaşın...</h2>
-
-
-
-                <table align="center" style="width: 50%; padding:3px">
-
-                    <tr><td colspan="2" style="color:#ffffff">Size kısa süre içerisinde hizmetlerimizle ilgili en doğru bilgiyi verebilmemiz için iletişim bilgilerinizi lütfen eksiksiz olarak bizimle paylaşın.
+    <div id="boxes" style="background-color: #1ABB9C; left:0">
+       
+        <div id="dialog" class="window" style="background-color: #1ABB9C;   ">
+             
+            <section id="contact-form">  
+                  <div id="popupfoot"><a href="#" class="close agree" ><img  src="images/close.png"  width="30px" height="30px"/></a>   </div>
+                <h2 style="color: #f5f3f3">Bize ulaşın...     </h2> 
+                <table align="center" style="width: 50%; padding: 3px"> 
+                    <tr>
+                        <td colspan="2" style="color: #ffffff">Size kısa süre içerisinde hizmetlerimizle ilgili en doğru bilgiyi verebilmemiz için iletişim bilgilerinizi lütfen eksiksiz olarak bizimle paylaşın.
 
                         <br />
-                        </td></tr>
+                        </td>
+                    </tr>
 
                     <tr>
                         <td>
-                            <div class="row" >
-                                <div class="col-sm-6" style="width:90%; padding-top:20px">
+                            <div class="row">
+                                <div class="col-sm-6" style="width: 90%; padding-top: 20px ; ">
                                     <asp:TextBox ID="TextBox1" PlaceHolder="Ad-Soyad" CssClass="form-control" runat="server"></asp:TextBox>
                                     <br />
 
@@ -76,56 +81,60 @@
                         </td>
                         <td rowspan="3">
                             <div class="row">
-                    <div class="col-sm-6" style="width:90%; height:100%; padding-top:20px">
-                        <asp:TextBox ID="TextBox4" PlaceHolder="Mesaj" CssClass="form-control" runat="server"  TextMode="MultiLine"></asp:TextBox>
-                        <br />
-                        <!-- /.col -->
-                    </div>
-                </div>
+                                <div class="col-sm-6" style="width: 90%; height: 100%; padding-top: 20px">
+                                    <asp:TextBox ID="TextBox4" PlaceHolder="Mesaj" CssClass="form-control" runat="server" TextMode="MultiLine"></asp:TextBox>
+                                    <br />
+                                    <!-- /.col -->
+                                </div>
+                            </div>
 
                         </td>
                     </tr>
                     <tr>
                         <td>
-                <!-- /.row -->
+                            <!-- /.row -->
 
-                <div class="row">
-                    <div class="col-sm-6" style="width:90%">
-                        <asp:TextBox ID="TextBox2" PlaceHolder="Email" CssClass="form-control" runat="server" TextMode="Email"></asp:TextBox>
-                        <br />
+                            <div class="row">
+                                <div class="col-sm-6" style="width: 90%">
+                                    <asp:TextBox ID="TextBox2" PlaceHolder="Email" CssClass="form-control" runat="server" TextMode="Email"></asp:TextBox>
+                                    <br />
 
-                    </div>
-                    <!-- /.col -->
-                </div>
-                <!-- /.row --></td>
+                                </div>
+                                <!-- /.col -->
+                            </div>
+                            <!-- /.row -->
+                        </td>
                     </tr>
                     <tr>
-                        <td>   <div class="row">
-                    <div class="col-sm-6" style="width:90%">
-                        <asp:TextBox ID="TextBox3" PlaceHolder="Telefon" CssClass="form-control" runat="server"></asp:TextBox>
-                        <br />
-                        <!-- /.col -->
-                    </div>
-                    <!-- /.row -->
+                        <td>
+                            <div class="row">
+                                <div class="col-sm-6" style="width: 90%">
+                                    <asp:TextBox ID="TextBox3" PlaceHolder="Telefon" CssClass="form-control" runat="server"></asp:TextBox>
+                                    <br />
+                                    <!-- /.col -->
+                                </div>
+                                <!-- /.row -->
 
-                </div></td>
+                            </div>
+                        </td>
                     </tr>
                     <tr>
-                        <td>  <div class="row">
-                    <div class="col-sm-6" style="width:90%; text-align:left">
-                        <asp:DropDownList ID="DropDownList1" runat="server" Width="100%">
-                            <asp:ListItem>Saç Ekim Önceliğiniz</asp:ListItem>
-                            <asp:ListItem>Kalite</asp:ListItem>
-                            <asp:ListItem>Fiyat</asp:ListItem>
-                            <asp:ListItem>Doğal Görünüm</asp:ListItem>
-                            <asp:ListItem>Doktor</asp:ListItem>
-                        </asp:DropDownList>
-                        <br />
+                        <td>
+                            <div class="row">
+                                <div class="col-sm-6" style="width: 90%; text-align: left">
+                                    <asp:DropDownList ID="DropDownList1" runat="server" Width="100%">
+                                        <asp:ListItem>Saç Ekim Önceliğiniz</asp:ListItem>
+                                        <asp:ListItem>Kalite</asp:ListItem>
+                                        <asp:ListItem>Fiyat</asp:ListItem>
+                                        <asp:ListItem>Doğal Görünüm</asp:ListItem>
+                                        <asp:ListItem>Doktor</asp:ListItem>
+                                    </asp:DropDownList>
+                                    <br />
 
-                    </div>
-                    <!-- /.col -->
-                </div>
-</td>
+                                </div>
+                                <!-- /.col -->
+                            </div>
+                        </td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
@@ -133,34 +142,36 @@
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
-                        <td>  <asp:Button ID="Button1" CssClass="btn btn-default btn-submit" runat="server" Text="Formu Gönder" OnClick="Button1_Click" /></td>
+                        <td   >
+                            <asp:Button ID="Button1" CssClass="btn btn-default btn-submit" runat="server" Text="Formu Gönder" OnClick="Button1_Click" />
+
+                        </td>
                     </tr>
                 </table>
-
-
-
-
-
-             
-
-              
-                
-
-              
+                 
                 <br />
                 <asp:Label ID="Label1" runat="server"></asp:Label>
                 <br />
 
                 <div id="response"></div>
-            </section>
-
-
-
-
-            <div id="popupfoot"><a href="#" class="close agree">Close</a>   </div>
+            </section> 
         </div>
         <div id="mask"></div>
     </div>
+
+
+
+
+    <div style="position: fixed; z-index: 10; right: 0; bottom: 0; padding: 6px; margin-right: 10px; margin-bottom: 80px; color: white;">
+
+        <a id="tikla" href="#" style="background-color: #1ABB9C">
+            <div style="margin-left: 5px;">
+                <img src="images/contact.png" width="50px" height="50px" />
+            </div>
+        </a>
+
+    </div>
+
 
 
     <main>
@@ -421,7 +432,64 @@
 		</main>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
-    <script>$(document).ready(function () {
+    <script type="text/javascript">
+         var id = '#dialog';
+        var btn = document.getElementById("tikla");
+
+         var maskHeight = $(document).height();
+    var maskWidth = $(window).width();
+
+    //Set heigth and width to mask to fill up the whole screen
+    $('#mask').css({ 'width': maskWidth, 'height': maskHeight });
+
+    //transition effect
+    $('#mask').fadeIn(500);
+    $('#mask').fadeTo("slow", 0.9);
+
+
+
+
+        btn.onclick = function() {
+    //Get the window height and width
+    var winH = $(window).height();
+    var winW = $(window).width();
+
+    //Set the popup window to center
+    $(id).css('top', winH / 2 - $(id).height() / 2);
+    $(id).css('left', winW / 2 - $(id).width() / 2);
+
+    //transition effect
+    $(id).fadeIn(2000);
+}
+
+
+
+          //if close button is clicked
+    $('.window .close').click(function (e) {
+        //Cancel the link behavior
+        e.preventDefault();
+
+        $('#mask').hide();
+        $('.window').hide();
+    });
+
+    //if mask is clicked
+    $('#mask').click(function () {
+        $(this).hide();
+        $('.window').hide();
+    });
+
+          //Get the screen height and width
+   
+
+
+
+
+
+
+
+        
+        $(document).ready(function () {
 
     var id = '#dialog';
 
