@@ -281,7 +281,7 @@
 										<div class="row">
 											
 											<div class="col-md-4 col-md-push-3 col-md-offset-1 col-sm-6 inner-left-xs inner-right-xs">
-												<figure><img src="images/product06.jpg" tppabs="http://demo.fuviz.com/reen/v1-4/assets/images/art/product06.jpg" alt=""></figure>
+												<figure><img src="images/product06.jpg" alt=""></figure>
 											</div><!-- /.col -->
 											
 											<div class="col-md-3 col-md-pull-4 col-sm-6 inner-top-xs">
@@ -410,23 +410,7 @@
 			
 			
 			
-			<!-- ============================================================= SECTION – GET IN TOUCH ============================================================= -->
 			
-			<section id="get-in-touch" class="inner-bottom">
-				<div class="container inner light-bg">
-					<div class="row">
-						<div class="col-md-8 col-sm-9 center-block text-center">
-							<header>
-								<h1>Want to work with us?</h1>
-								<p>Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam.</p>
-							</header>
-							<a href="contact.html"  class="btn btn-large">Get in touch</a>
-						</div><!-- /.col -->
-					</div><!-- /.row -->
-				</div><!-- /.container -->
-			</section>
-			
-			<!-- ============================================================= SECTION – GET IN TOUCH : END ============================================================= -->
 			
 
 
