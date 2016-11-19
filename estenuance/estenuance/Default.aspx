@@ -53,9 +53,9 @@
     </style>
 
 
-    <div id="boxes" style="background-color: #1ABB9C; left:0">
+    <div id="boxes" style="background-color: #2f4052; left:0">
        
-        <div id="dialog" class="window" style="background-color: #1ABB9C;   ">
+        <div id="dialog" class="window" style="background-color: #2f4052;   ">
              
             <section id="contact-form">  
                   <div id="popupfoot"><a href="#" class="close agree" ><img  src="images/close.png"  width="30px" height="30px"/></a>   </div>

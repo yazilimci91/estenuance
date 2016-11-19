@@ -1,11 +1,3 @@
-/*
-Template: 		REEN – Made for Designers
-Description: 	Creative Portfolio Bootstrap 3 Template
-Version: 		1.5
-Author: 		fuviz
-Demo URI: 		http://demo.fuviz.com/reen
-*/
-
 /*===================================================================================*/
 /*	GENERAL
 /*===================================================================================*/
@@ -1851,6 +1843,14 @@ aside .thumb figure {
     background: #00ACED;
     background: #2FBBED;
 }
+.btn-share-lg:hover .icon-s-instagram:after,
+.btn-share-md:hover .icon-s-instagram:after,
+.btn-share-sm:hover .icon-s-instagram:after,
+.btn-share-xs:hover .icon-s-instagram:after{
+    background: #2e5e86;
+    background: #2e5e86;
+
+}
 .btn-share-lg p,
 .btn-share-md p,
 .btn-share-sm p,
@@ -2002,10 +2002,11 @@ p .btn {
     background: #1769FF;
     background: #3079FF;
 }
-.social a .icon-s-dribbble:after {
-    background: #EA4C89;
-    background: #EB6397;
+.social a .icon-s-instagram:after {
+    background: #2e5e86;
+    background: #2e5e86;
 }
+
 @font-face {
   font-family: 'fontello';
   src: url ('fonts/fontello.eot');

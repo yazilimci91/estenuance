@@ -215,6 +215,7 @@
     <Content Include="js\scripts.js" />
     <Content Include="js\switchstylesheet.js" />
     <Content Include="js\viewport-units-buggyfill.js" />
+    <Content Include="kurumsal.aspx" />
     <Content Include="modal.html" />
     <Content Include="one-page1.html" />
     <Content Include="one-page2.html" />
@@ -257,6 +258,13 @@
     </Compile>
     <Compile Include="iletisim.aspx.designer.cs">
       <DependentUpon>iletisim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kurumsal.aspx.cs">
+      <DependentUpon>kurumsal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kurumsal.aspx.designer.cs">
+      <DependentUpon>kurumsal.aspx</DependentUpon>
     </Compile>
     <Compile Include="Master.Master.cs">
       <DependentUpon>Master.Master</DependentUpon>
