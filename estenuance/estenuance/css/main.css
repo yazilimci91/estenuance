@@ -1851,6 +1851,15 @@ aside .thumb figure {
     background: #2e5e86;
 
 }
+.btn-share-lg:hover .icon-s-youtube:after,
+.btn-share-md:hover .icon-s-youtube:after,
+.btn-share-sm:hover .icon-s-youtube:after,
+.btn-share-xs:hover .icon-s-youtube:after{
+    background: #b31217;
+    background: #b31217;
+
+}
+
 .btn-share-lg p,
 .btn-share-md p,
 .btn-share-sm p,
@@ -2005,6 +2014,11 @@ p .btn {
 .social a .icon-s-instagram:after {
     background: #2e5e86;
     background: #2e5e86;
+}
+
+.social a .icon-s-youtube:after {
+    background: #b31217;
+    background: #b31217;
 }
 
 @font-face {

@@ -176,7 +176,7 @@
 
     <main>
 			
-			<!-- ============================================================= SECTION – HERO ============================================================= -->
+			<!-- ============================================================= SECTION – Slayt Başlangıç ============================================================= -->
 			
 			<section id="hero">
 				<div id="owl-main" class="owl-carousel height-md owl-inner-nav owl-ui-lg">
@@ -228,9 +228,9 @@
 				</div><!-- /.owl-carousel -->
 			</section>
 			
-			<!-- ============================================================= SECTION – HERO : END ============================================================= -->
+			<!-- ============================================================= SECTION – Slayt Bitiş ============================================================= -->
 			
-            <!-- ============================================================= SECTION – REASONS ============================================================= -->
+            <!-- ============================================================= SECTION – Saç Ekimi Adımları Başlangıç ============================================================= -->
 			
 			<section id="reasons">
 				<div class="container inner">
@@ -262,7 +262,7 @@
 										<div class="row">
 											
 											<div class="col-md-5 col-md-push-5 col-md-offset-1 col-sm-6 col-sm-push-6 inner-left-xs">
-												<figure><img src="images/product04.jpg" tppabs="http://demo.fuviz.com/reen/v1-4/assets/images/art/product04.jpg" alt=""></figure>
+												<figure><img src="images/product04.jpg" alt=""></figure>
 											</div><!-- /.col -->
 											
 											<div class="col-md-5 col-md-pull-5 col-sm-6 col-sm-pull-6 inner-top-xs inner-right-xs">
@@ -312,7 +312,7 @@
 										
 										<div class="row">
 											<div class="col-md-5 col-sm-6 col-xs-8 center-block text-center">
-												<figure><img src="images/product03.jpg" tppabs="http://demo.fuviz.com/reen/v1-4/assets/images/art/product03.jpg" alt=""></figure>
+												<figure><img src="images/product03.jpg" alt=""></figure>
 											</div><!-- /.col -->
 										</div><!-- /.row -->
 										
@@ -343,9 +343,9 @@
 				</div><!-- /.container -->
 			</section>
 			
-			<!-- ============================================================= SECTION – REASONS : END ============================================================= -->
+			<!-- ============================================================= SECTION – Saç Ekimi Adımları Bitiş ============================================================= -->
 			
-			<!-- ============================================================= SECTION – PRODUCT ============================================================= -->
+			<!-- ============================================================= SECTION – Sayfa içeriği Başlangıç ============================================================= -->
 			
 			<section id="product">
 				<div class="container inner">
@@ -353,13 +353,13 @@
 					<div class="row">
 						
 						<div class="col-sm-6 inner-right-xs text-right">
-							<figure><img src="images/product01.jpg" alt=""></figure>
+							<figure><img src="images/fueyontemindedonor.png" alt="FUE Yönteminde Donör Alanı" style="width:300px; height:291px; margin-right:100px;"></figure>
 						</div><!-- /.col -->
 						
 						<div class="col-sm-6 inner-top-xs inner-left-xs">
-							<h2>Fully flexible user interface</h2>
+							<h2>FUE YÖNTEMİNDE DONÖR ALANI ?</h2>
 							<p>Magnis modipsae que lib voloratati andigen daepeditem quiate ut reporemni aut labor. Laceaque quiae sitiorem rest non restibusaes es tumquam core posae volor remped modis volor. Doloreiur qui commolu ptatemp dolupta oreprerum tibusam. Eumenis et consent accullignis dentibea autem inisita posae volor conecus resto explabo.</p>
-							<a href="#" class="txt-btn">Check out the functions</a>
+							<a href="#" class="txt-btn">Daha fazla bilgi için tıklayınız.</a>
 						</div><!-- /.col -->
 						
 					</div><!-- /.row -->
@@ -371,7 +371,7 @@
 						</div><!-- /.col -->
 						
 						<div class="col-sm-6 col-sm-pull-6 inner-top-xs inner-right-xs">
-							<h2>Over 14,000 designs available</h2>
+							<h2>Saç Ekiminde Kök Sayısının Önemi</h2>
 							<p>Magnis modipsae que lib voloratati andigen daepeditem quiate es reporemus aut labor. Laceaque quiae sitiorem rest non restibusaes dem tumquam core posae volor remped modis volor. Doloreiur quia commolu ptatemp dolupta oreprerum tibusam eumenis et consent accullignis lib dentibea autem inisita. Conecus iure posae volor remped modis aut accabora incim resto explabo eictemperum quiae sitiorem.</p>
 							<a href="#" class="txt-btn">Visit the showroom</a>
 						</div><!-- /.col -->
@@ -385,7 +385,7 @@
 						</div><!-- /.col -->
 						
 						<div class="col-sm-6 inner-top-xs inner-left-xs">
-							<h2>Social media made even easier</h2>
+							<h2>Sosyal Medya Hesaplarımız</h2>
 							<p>Magnis modipsae que lib voloratati andigen daepeditem quiate ut reporemni aut labor. Laceaque quiae sitiorem rest non restibusaes es tumquam core posae volor remped modis volor. Doloreiur qui commolu ptatemp dolupta oreprerum tibusam emnis et consent accullignis.</p>
 							<a href="#" class="txt-btn">Learn more about it</a>
 						</div><!-- /.col -->
@@ -395,39 +395,66 @@
 				</div><!-- /.container -->
 			</section>
 			
-			<!-- ============================================================= SECTION – PRODUCT : END ============================================================= -->
+			<!-- ============================================================= SECTION – Sayfa içeriği Bitiş ============================================================= -->
 			
 			
-			<!-- ============================================================= SECTION – VISIT OUR STORE ============================================================= -->
-		
-			<section id="visit-our-store" class="img-bg img-bg-soft tint-bg" style="background-image: url(image-background04.jpg)">
+		<!-- ============================================================= Sizin Yorumlarınız Başlangıç ============================================================= -->
+			
+			<section id="testimonials" class="light-bg img-bg-softer" style="background-image: url(images/pattern-background01.jpg);">
 				<div class="container inner">
 					
 					<div class="row">
-						<div class="col-md-8 col-sm-9">
+						<div class="col-md-5 col-sm-8 center-block text-center">
 							<header>
-								<h1>Customize your own model</h1>
-								<p>Magnis modipsae que voloratati andigen daepeditem quiate conecus aut labore. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam explabo.</p>
+								<h1>Gülen Yüzlerin Yorumları</h1>
 							</header>
-							<a href="#" class="btn btn-large">Visit our store</a>
+						</div><!-- /.col -->
+					</div><!-- /.row -->
+					
+					<div class="row">
+						<div class="col-md-8 col-sm-9 center-block text-center">
+							<div id="owl-testimonials" class="owl-carousel owl-outer-nav owl-ui-md">
+								
+								<div class="item">
+									<blockquote>
+										<p>Need a professional kickass looking portfolio template, REEN is the way to go! It is simple, beautiful and really easy to use. Great product!</p>
+										<footer>
+											<cite>Steve Gates</cite>
+										</footer>
+									</blockquote>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<blockquote>
+										<p>REEN is a sleek, beautiful, ridiculously easy to use multipurpose template. More importantly, it’s a huge time saver for busy creatives!</p>
+										<footer>
+											<cite>Amber Jones</cite>
+										</footer>
+									</blockquote>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<blockquote>
+										<p>Been putting off creating my portfolio for several years, then I found REEN and about 30 minutes later ... I have an awesome looking portfolio. Totally love it!</p>
+										<footer>
+											<cite>Bill Jobs</cite>
+										</footer>
+									</blockquote>
+								</div><!-- /.item -->
+								
+							</div><!-- /.owl-carousel -->
 						</div><!-- /.col -->
 					</div><!-- /.row -->
 					
 				</div><!-- /.container -->
 			</section>
 			
-			<!-- ============================================================= SECTION – VISIT OUR STORE : END ============================================================= -->
+			<!-- ============================================================= Sizin Yorumlarınız Bitiş ============================================================= -->
 			
 			
 			
 			
 			
-			
-
-
-
-
-
 
 		</main>
 

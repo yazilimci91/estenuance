@@ -38,7 +38,7 @@
     <link href="fonts/fontello.css" rel="stylesheet">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="shortcut icon" href="images/favicon.ico">
 
     <!-- HTML5 elements and media queries Support for IE8 : HTML5 shim and Respond.js -->
     <!--[if lt IE 9]>
@@ -80,12 +80,10 @@
                         
                         <li><a href="#"><i class="icon-s-facebook"></i></a></li>
                         <li><a href="#"><i class="icon-s-instagram"></i></a></li>
-                        <li><a href="#"><i class="icon-s-gplus"></i></a></li>
                         <li><a href="#"><i class="icon-s-twitter"></i></a></li>
-                        <li><a href="#"><i class="icon-s-pinterest"></i></a></li>
-                        <li><a href="#"><i class="icon-s-behance"></i></a></li>
-                        
-                        <li  > 
+                        <li><a href="#"><i class="icon-s-gplus"></i></a></li>
+                        <li><a href="#"><i class="icon-s-youtube"></i></a></li>
+                        <li> 
                             <select class="social pull-right" onchange="location = this.value;" style="font-family:'Source Sans Pro', sans-serif; font-size:12px">
                                  <option  value="Default.aspx"> TR</option>
                                 <option value="http://en.estenuance.com"> EN</option>
@@ -142,7 +140,7 @@
                                                 <figure>
                                                     <div class="icon-overlay icn-link">
                                                         <a href="portfolio-post.html" >
-                                                            <img src="images/work01.jpg" alt=""></a>
+                                                            <img src="images/sacekimialani.png" alt=""></a>
                                                     </div>
                                                     <figcaption>
                                                         <p>Saç ekimi yaş ve cinsiyet ayrımı yapmaksızın saç dökülmelerinden dolayı  oluşan rahatsızlığı gidermek için kişilerde yapılan estetik operasyondur.</p>
@@ -338,6 +336,19 @@
                 </div>
                 <!-- /.col -->
 
+                
+                <div class="col-md-3 col-sm-6 inner">
+                    <h4>BİZE ULAŞIN</h4>
+                        <ul class="contacts">
+                        <li><i class="icon-location contact"></i>Abdi İpekçi Cad. No:21 Nil Apt. K:3 D:4 Nişantaşı/İSTANBUL</li>
+                        <li><i class="icon-mobile contact"></i>+90 (544) 467 1609</li>
+                        <li><i class="icon-mobile contact"></i>+90 (532) 680 2501 </li>
+                        <li><a href="#"><i class="icon-mail-1 contact"></i>info@estenuance.com</a></li>
+                    </ul>
+                    <!-- /.contacts -->
+                </div>
+                <!-- /.col -->
+
                 <div class="col-md-3 col-sm-6 inner">
                     <h4>SOSYAL MEDYA HESAPLARIMIZ</h4>
 
@@ -369,28 +380,23 @@
 
                         <div class="col-xs-6 thumb">
                                 <a href="#" class="btn-share-xs">
-							<i class="icon-s-gplus"></i>
+							<i class="icon-s-youtube"></i>
 						</a>
                         </div>
                         <!-- /.thumb -->
 
+                        <div class="col-xs-6 thumb">
+                                <a href="#" class="btn-share-xs">
+							<i class="icon-s-gplus"></i>
+						</a>
+                        </div>
+                        <!-- /.thumb -->
                     </div>
                     <!-- /.row -->
                 </div>
                 <!-- /.col -->
 
 
-                <div class="col-md-3 col-sm-6 inner">
-                    <h4>BİZE ULAŞIN</h4>
-                        <ul class="contacts">
-                        <li><i class="icon-location contact"></i>Abdi İpekçi Cad. No:21 Nil Apt. K:3 D:4 Nişantaşı/İSTANBUL</li>
-                        <li><i class="icon-mobile contact"></i>+90 (544) 467 1609</li>
-                        <li><i class="icon-mobile contact"></i>+90 (532) 680 2501 </li>
-                        <li><a href="#"><i class="icon-mail-1 contact"></i>info@estenuance.com</a></li>
-                    </ul>
-                    <!-- /.contacts -->
-                </div>
-                <!-- /.col -->
 
                 <div class="col-md-3 col-sm-6 inner">
                     <h4>E-BÜLTEN</h4>
