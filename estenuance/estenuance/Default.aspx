@@ -162,11 +162,11 @@
 
 
 
-    <div style="position: fixed; z-index: 10; right: 0; bottom: 0; padding: 6px; margin-right: 10px; margin-bottom: 80px; color: white;">
+    <div style="position: fixed; z-index: 19; right: 0; top: 180px; cursor: pointer;">
 
         <a id="tikla" href="#" style="background-color: #1ABB9C">
-            <div style="margin-left: 5px;">
-                <img src="images/contact.png" width="50px" height="50px" />
+            <div style="margin-left: 0px;">
+                <img src="images/sizi-arayalim-form-open.png" width="40px" height="265px" />
             </div>
         </a>
 
@@ -367,7 +367,7 @@
 					<div class="row inner-top-md">
 						
 						<div class="col-sm-6 col-sm-push-6 inner-left-xs">
-							<figure><img src="images/product02.jpg" alt=""></figure>
+							<figure><img src="images/saekimi.png" alt=""></figure>
 						</div><!-- /.col -->
 						
 						<div class="col-sm-6 col-sm-pull-6 inner-top-xs inner-right-xs">
@@ -406,7 +406,7 @@
 					<div class="row">
 						<div class="col-md-5 col-sm-8 center-block text-center">
 							<header>
-								<h1>Gülen Yüzlerin Yorumları</h1>
+								<h1>Hasta Yorumları</h1>
 							</header>
 						</div><!-- /.col -->
 					</div><!-- /.row -->

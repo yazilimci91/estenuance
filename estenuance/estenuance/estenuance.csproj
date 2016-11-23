@@ -57,23 +57,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="about.html" />
-    <Content Include="about2.html" />
-    <Content Include="accordion.html" />
-    <Content Include="backgrounds.html" />
-    <Content Include="blog-post.html" />
-    <Content Include="blog-post2.html" />
-    <Content Include="blog-post3.html" />
-    <Content Include="blog.html" />
-    <Content Include="blog2.html" />
-    <Content Include="blog3.html" />
-    <Content Include="blog4.html" />
-    <Content Include="blog5.html" />
-    <Content Include="blog6.html" />
-    <Content Include="blog7.html" />
-    <Content Include="contact.html" />
-    <Content Include="contact2.html" />
-    <Content Include="contact3.html" />
     <Content Include="css\animate.min.css" />
     <Content Include="css\aos.css" />
     <Content Include="css\bootstrap.min.css" />
@@ -87,7 +70,6 @@
     <Content Include="css\owl.carousel.css" />
     <Content Include="css\owl.transitions.css" />
     <Content Include="Default.aspx" />
-    <Content Include="font-icons.html" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\fontello-circle.svg" />
     <Content Include="fonts\fontello-social.svg" />
@@ -192,12 +174,6 @@
     <Content Include="images\work23.jpg" />
     <Content Include="images\work24.jpg" />
     <Content Include="images\work25.jpg" />
-    <Content Include="index.html" />
-    <Content Include="index2.html" />
-    <Content Include="index3.html" />
-    <Content Include="index4.html" />
-    <Content Include="index5.html" />
-    <Content Include="isotope.html" />
     <Content Include="js\analytics.js" />
     <Content Include="js\aos.js" />
     <Content Include="js\bootstrap.min.js" />
@@ -216,32 +192,7 @@
     <Content Include="js\switchstylesheet.js" />
     <Content Include="js\viewport-units-buggyfill.js" />
     <Content Include="kurumsal.aspx" />
-    <Content Include="modal.html" />
-    <Content Include="one-page1.html" />
-    <Content Include="one-page2.html" />
-    <Content Include="one-page3.html" />
-    <Content Include="one-page4.html" />
-    <Content Include="one-page5.html" />
-    <Content Include="portfolio-post.html" />
-    <Content Include="portfolio-post2.html" />
-    <Content Include="portfolio-post3.html" />
-    <Content Include="portfolio-post4.html" />
-    <Content Include="portfolio-post5.html" />
-    <Content Include="portfolio-post6.html" />
-    <Content Include="portfolio.html" />
-    <Content Include="portfolio2.html" />
-    <Content Include="portfolio3.html" />
-    <Content Include="portfolio4.html" />
-    <Content Include="portfolio5.html" />
-    <Content Include="pricing.html" />
-    <Content Include="pricing2.html" />
-    <Content Include="services.html" />
-    <Content Include="services2.html" />
-    <Content Include="services3.html" />
-    <Content Include="sidenav.html" />
-    <Content Include="slider-carousel.html" />
-    <Content Include="styles.html" />
-    <Content Include="tab.html" />
+    <Content Include="sacekimi.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -274,6 +225,13 @@
       <DependentUpon>Master.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sacekimi.aspx.cs">
+      <DependentUpon>sacekimi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sacekimi.aspx.designer.cs">
+      <DependentUpon>sacekimi.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\fontawesome-webfont.eot" />
