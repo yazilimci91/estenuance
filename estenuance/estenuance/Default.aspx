@@ -8,28 +8,27 @@
     <style>
         #mask {
             position: absolute;
-            text-align:center; 
-            float:right; 
+            text-align: center;
+            float: right;
             top: 0;
-            z-index: 9000;
+            z-index: -5;
             background-color: #000;
             display: none;
         }
 
         #boxes .window {
             position: absolute;
-            width: 350px;
-            height: 250px; 
-            z-index: 9999;
+            width: 100%;
+            height: 250px;
+            z-index: 9000;
             padding: 20px;
-            border-radius: 15px; 
+            border-radius: 15px;
         }
 
         #boxes #dialog {
             text-align: center;
-            
-            width: 95%; 
-            height: 600px; 
+            width: 100%;
+            height: 600px;
             padding: 10px;
             background-color: #ffffff;
             font-family: 'Lato', sans-serif;
@@ -39,92 +38,92 @@
         #popupfoot {
             font-size: 16pt;
             position: relative;
-            top: 0px; 
-            float:right;
+            top: 0px;
+            float: right;
             width: 20px;
-            right:0;
-           
-
-            
-                    }
+            right: 0;
+        }
     </style>
 
-      
-      <div id="boxes" style="background-color: #2f4052;  top:0; margin-top:0px; "> 
-         
-             <div id="dialog" class="window" style="background-color: #2f4052;  margin-top:0 ; ">
-            	<div class="container inner" style="margin-top:0px; text-align: center;">
-				  <div class="row" style="margin-top:0px">
-            	    <div class="col-md-8 inner-right inner-bottom-md" style="margin-top:0px;   ">
-                        
-               <section id="contact-form"  style="  text-align: center; position:absolute; left:40%; right:0%;">  
-                  <div id="popupfoot" style="margin-top:0px" ><a href="#" class="close agree" ><img  src="images/close.png"  width="30px" height="30px"/></a>   </div>
-                <h2 style="color: #f5f3f3; text-align: center;">Bize ulaşın...     </h2>  
-                   Size kısa süre içerisinde hizmetlerimizle ilgili en doğru bilgiyi verebilmemiz için iletişim bilgilerinizi lütfen eksiksiz olarak bizimle paylaşın.
+
+    <div id="boxes" style="background-color: #2f4052;">
+        <div id="dialog" class="window" style="background-color: #2f4052;">
+            <div class="row" style="margin-top: 0px">
+                <section id="contact-form" style="text-align: center; padding: 5% 10% 0 10%">
+                    <div id="popupfoot" style="margin-top: 0px">
+                        <a href="#" class="close agree">
+                            <img src="images/close.png" width="30px" height="30px" /></a>
+                    </div>
+                    <h2 style="color: #f5f3f3; text-align: center;">Bize Sizi Arayalım...     </h2>
+                    Size kısa süre içerisinde hizmetlerimizle ilgili en doğru bilgiyi verebilmemiz için iletişim bilgilerinizi lütfen eksiksiz olarak bizimle paylaşın.
                     
-                           <div class="row" style="margin-top:10px;">
-                                <div class="col-sm-6" style="width: 50%;   float:left;">
-                                    <asp:TextBox ID="TextBox5" PlaceHolder="Ad-Soyad" CssClass="form-control" runat="server"></asp:TextBox> 
-                              </div> 
-                             
-                     
-                              
-                                <div class="col-sm-6" style="float:right; width: 50%;  float:right;">
-                                    <asp:TextBox ID="TextBox6" PlaceHolder="Mesaj" CssClass="form-control" runat="server" TextMode="MultiLine"></asp:TextBox>
-                                    <br />
-                                    <!-- /.col -->
-                                </div>
-                            
+                          
+
+                    <div class="row" style="margin-top: 10px;   display:block;  ">
+                        <div style="float: left; position:static">
+                            <div class="col-sm-6" style="width: 50%; float: left;">
+                                <asp:TextBox ID="TextBox5" PlaceHolder="Ad-Soyad" CssClass="form-control" runat="server"></asp:TextBox>
+                            </div>
 
 
-                            
-                                <div class="col-sm-6" style="width: 50%;float:left;">
-                                    <asp:TextBox ID="TextBox7" PlaceHolder="Email" CssClass="form-control" runat="server" TextMode="Email"></asp:TextBox>
-                                    <br /> 
-                                </div> 
-                              
-                  
-                                <div class="col-sm-6" style="width: 50%; float:left;">
-                                    <asp:TextBox ID="TextBox8" PlaceHolder="Telefon" CssClass="form-control" runat="server"></asp:TextBox>
-                                    <br /> 
-                                </div>  
-                            
-                                <div class="col-sm-6" style="width: 50%;   float:left;">
-                                    <asp:DropDownList ID="DropDownList2" runat="server" Width="100%">
-                                        <asp:ListItem>Saç Ekim Önceliğiniz</asp:ListItem>
-                                        <asp:ListItem>Kalite</asp:ListItem>
-                                        <asp:ListItem>Fiyat</asp:ListItem>
-                                        <asp:ListItem>Doğal Görünüm</asp:ListItem>
-                                        <asp:ListItem>Doktor</asp:ListItem>
-                                    </asp:DropDownList>
-                                    <br />
-
-                                </div>
-                                 <asp:Button ID="Button1" CssClass="btn btn-default btn-submit" runat="server" Text="Formu Gönder" OnClick="Button1_Click" />
-                               
+                              <div class="col-sm-6" style="float: right; width: 50%; float: right;">
+                                <asp:TextBox ID="TextBox6" PlaceHolder="Mesaj" CssClass="form-control" runat="server" TextMode="MultiLine"></asp:TextBox>
                                 <br />
-                                <asp:Label ID="Label2" runat="server"></asp:Label>
-                                                <!-- /.col -->
-                            </div> 
-                 
-                <br />
+                                <!-- /.col -->
+                            </div>
 
-                <div id="response"></div>
-            </section> 
-                     </div>
-                       </div>
-                     </div>
-            	  </div>
-                 
+                           
+                            <div class="col-sm-6" style="width: 50%; float: left;">
+                                <asp:TextBox ID="TextBox7" PlaceHolder="Email" CssClass="form-control" runat="server" TextMode="Email"></asp:TextBox>
+                                <br />
+                            </div>
+
+
+                            <div class="col-sm-6" style="width: 50%; float: left;">
+                                <asp:TextBox ID="TextBox8" PlaceHolder="Telefon" CssClass="form-control" runat="server"></asp:TextBox>
+                                <br />
+                            </div>
+
+                            <div class="col-sm-6" style="width: 50%; float: left;">
+                                <asp:DropDownList ID="DropDownList2" runat="server" Width="100%">
+                                    <asp:ListItem>Saç Ekim Önceliğiniz</asp:ListItem>
+                                    <asp:ListItem>Kalite</asp:ListItem>
+                                    <asp:ListItem>Fiyat</asp:ListItem>
+                                    <asp:ListItem>Doğal Görünüm</asp:ListItem>
+                                    <asp:ListItem>Doktor</asp:ListItem>
+                                </asp:DropDownList>
+                                <br />
+
+                            </div>
+
+
+                           
+                        </div>
+
+
+                        <asp:Button ID="Button1" CssClass="btn btn-default btn-submit" runat="server" Text="Formu Gönder" OnClick="Button1_Click" />
+
+                        <br />
+                        <asp:Label ID="Label2" runat="server"></asp:Label>
+                        <!-- /.col -->
+                    </div>
+
+                    <br />
+
+
+                </section>
+            </div>
+        </div>
+
         <div id="mask"></div>
     </div>
 
-    
 
 
 
 
-    <div style="position: fixed; z-index: 19; right: 0; top: 180px; cursor: pointer;">
+
+    <div style="position: fixed; z-index: 19; right: 0; top: 180px; cursor: pointer; z-index: 9001">
 
         <a id="tikla" href="#" style="background-color: #1ABB9C">
             <div style="margin-left: 0px;">
@@ -423,103 +422,103 @@
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
     <script type="text/javascript">
-         var id = '#dialog';
+        var id = '#dialog';
         var btn = document.getElementById("tikla");
 
-         var maskHeight = $(document).height();
-    var maskWidth = $(window).width();
+        var maskHeight = $(document).height();
+        var maskWidth = $(window).width();
 
-    //Set heigth and width to mask to fill up the whole screen
-    $('#mask').css({ 'width': maskWidth, 'height': maskHeight });
+        //Set heigth and width to mask to fill up the whole screen
+        $('#mask').css({ 'width': maskWidth, 'height': maskHeight });
 
-    //transition effect
-    $('#mask').fadeIn(500);
-    $('#mask').fadeTo("slow", 0.9);
-
-
-
-
-        btn.onclick = function() {
-    //Get the window height and width
-    var winH = $(window).height();
-    var winW = $(window).width();
-
-    //Set the popup window to center
-    $(id).css('top', winH / 2 - $(id).height() / 2);
-    $(id).css('left', winW / 2 - $(id).width() / 2);
-
-    //transition effect
-    $(id).fadeIn(2000);
-}
+        //transition effect
+        $('#mask').fadeIn(500);
+        $('#mask').fadeTo("slow", 0.9);
 
 
 
-          //if close button is clicked
-    $('.window .close').click(function (e) {
-        //Cancel the link behavior
-        e.preventDefault();
 
-        $('#mask').hide();
-        $('.window').hide();
-    });
+        btn.onclick = function () {
+            //Get the window height and width
+            var winH = $(window).height();
+            var winW = $(window).width();
 
-    //if mask is clicked
-    $('#mask').click(function () {
-        $(this).hide();
-        $('.window').hide();
-    });
+            //Set the popup window to center
+            $(id).css('top', winH / 2 - $(id).height() / 2);
+            $(id).css('left', winW / 2 - $(id).width() / 2);
 
-          //Get the screen height and width
-   
+            //transition effect
+            $(id).fadeIn(2000);
+        }
 
+
+
+        //if close button is clicked
+        $('.window .close').click(function (e) {
+            //Cancel the link behavior
+            e.preventDefault();
+
+            $('#mask').hide();
+            $('.window').hide();
+        });
+
+        //if mask is clicked
+        $('#mask').click(function () {
+            $(this).hide();
+            $('.window').hide();
+        });
+
+        //Get the screen height and width
 
 
 
 
 
 
-        
+
+
+
         $(document).ready(function () {
 
-    var id = '#dialog';
+            var id = '#dialog';
 
-    //Get the screen height and width
-    var maskHeight = $(document).height();
-    var maskWidth = $(window).width();
+            //Get the screen height and width
+            var maskHeight = $(document).height();
+            var maskWidth = $(window).width();
 
-    //Set heigth and width to mask to fill up the whole screen
-    $('#mask').css({ 'width': maskWidth, 'height': maskHeight });
+            //Set heigth and width to mask to fill up the whole screen
+            $('#mask').css({ 'width': maskWidth, 'height': maskHeight });
 
-    //transition effect
-    $('#mask').fadeIn(500);
-    $('#mask').fadeTo("slow", 0.9);
+            //transition effect
+            $('#mask').fadeIn(500);
+            $('#mask').fadeTo("slow", 0.9);
 
-    //Get the window height and width
-    var winH = $(window).height();
-    var winW = $(window).width();
+            //Get the window height and width
+            var winH = $(window).height();
+            var winW = $(window).width();
 
-    //Set the popup window to center
-    $(id).css('top', winH / 2 - $(id).height() / 2);
-    $(id).css('left', winW / 2 - $(id).width() / 2);
+            //Set the popup window to center
+            $(id).css('top', winH / 2 - $(id).height() / 2);
+            $(id).css('left', winW / 2 - $(id).width() / 2);
 
-    //transition effect
-    $(id).fadeIn(2000);
+            //transition effect
+            $(id).fadeIn(2000);
 
-    //if close button is clicked
-    $('.window .close').click(function (e) {
-        //Cancel the link behavior
-        e.preventDefault();
+            //if close button is clicked
+            $('.window .close').click(function (e) {
+                //Cancel the link behavior
+                e.preventDefault();
 
-        $('#mask').hide();
-        $('.window').hide();
-    });
+                $('#mask').hide();
+                $('.window').hide();
+            });
 
-    //if mask is clicked
-    $('#mask').click(function () {
-        $(this).hide();
-        $('.window').hide();
-    });
+            //if mask is clicked
+            $('#mask').click(function () {
+                $(this).hide();
+                $('.window').hide();
+            });
 
-});</script>
+        });</script>
 
 </asp:Content>
