@@ -50,12 +50,12 @@
 											<h2 class="post-title">
 												<a>Saç Ekiminde Kullanılan Teknikler</a>
 											</h2>
-								            <ul>
-                                                <li>Fue saç ekimi</li>
-                                                <li>PRP destekli saç ekimi</li>
-                                                <li>Tıraşsız saç ekimi</li>
-                                                <li>DHI saç ekimi</li>
-                                                <li>Sakal,Bıyık ve Kaş Ekimi</li>
+								       <ul class="circled">
+                                                 <li><a href="sacekimiyontemleri.aspx">Fue Yöntemiyle Saç Ekimi </a></li>
+                                                    <li><a href="sacekimiyontemleri.aspx" >PRP Destekli Saç Ekimi</a></li>
+                                                    <li><a href="sacekimiyontemleri.aspx">Sakal,Bıyık ve Kaş Ekimi </a></li>
+                                                    <li><a href="sacekimiyontemleri.aspx">Traşsız Saç Ekimi </a></li>
+                                                    <li><a href="sacekimiyontemleri.aspx"</a> DHI Saç Ekimi</li>
 								            </ul>
 
 										</div><!-- /.post-content --> 
@@ -69,7 +69,7 @@
 											<h2 class="post-title">
 												<a>SAÇ EKİMİNE NEDEN İHTİYAÇ DUYULUR ?</a>
 											</h2>
-										<p>Herkes sağlıklı, gür ve bakımlı saçlara sahip olmak ister. Ancak genetik ve zaman içerisinde karşılaşılan sorunlardan dolayı herkes sağlıklı ve gür saçlara sahip değildir. Yaşlanmaya bağlı olarak da saçların dökülmesi insanları psikolojik açıdan olumsuz olarak etkilemektedir.</p>
+										<p>Herkes sağlıklı, gür ve bakımlı saçlara sahip olmak ister ancak genetik ve zaman içerisinde karşılaşılan sorunlardan dolayı sağlıklı ve gür saçlarınızı kaybedebilirsiniz. Yaşlanmaya bağlı olarak da saçların dökülmesi insanları psikolojik açıdan olumsuz olarak etkilemektedir.</p>
 										<p>Saç dökülmesi ile karşılaşan ya da kellik problemi yaşayan kişiler sosyal ve kültürel olarak kendilerini eksik hissederler ve bu durum insanlara özgüven kaybı yaşatır. İlk olarak estetik bir güzellik yakalamak için sonrasında ise insanların psikolojisini düzeltmek için yapılan saç ekimlerinin oldukça olumlu sonuçlar verdiği gözler önündedir.</p>	
 										</div><!-- /.post-content --> 
 										

@@ -131,8 +131,7 @@
                                                 <h4>SAÇ EKİMİ NEDİR ?</h4>
                                                 <figure>
                                                     <div class="icon-overlay icn-link">
-                                                        <a href="portfolio-post.html" >
-                                                            <img src="images/sacekimialani.png" alt=""></a>
+                                                         <img src="images/sacekimialani.png" alt=""/>
                                                     </div>
                                                     <figcaption>
                                                         <p>Saç ekimi yaş ve cinsiyet ayrımı yapmaksızın saç dökülmelerinden dolayı  oluşan rahatsızlığı gidermek için kişilerde yapılan estetik operasyondur.</p>
@@ -150,7 +149,7 @@
                                                     <li><a href="portfolio5.html" >PRP Destekli Saç Ekimi</a></li>
                                                     <li><a href="portfolio-post5.html">Sakal,Bıyık ve Kaş Ekimi </a></li>
                                                     <li><a href="blog5.html">Traşsız Saç Ekimi </a></li>
-                                                    <li><a href="blog7.html"</a> DHI Saç Ekimi</li>
+                                                    <li><a href="blog7.html">DHI Saç Ekimi</a></li>
                                                 </ul>
                                                 <!-- /.circled -->
                                             </div>
@@ -163,24 +162,23 @@
 
                                                     <div class="col-xs-6 thumb">
                                                         <figure class="icon-overlay icn-link">
-                                                            <a href="portfolio-post.html">
-                                                                <img src="images/oncesi.png" alt=""></a>
+                                                            <img src="images/oncesi.png" alt="">
                                                         </figure>
                                                     </div>
                                                     <!-- /.thumb -->
 
                                                     <div class="col-xs-6 thumb">
                                                         <figure class="icon-overlay icn-link">
-                                                            <a href="portfolio-post.html">
-                                                                <img src="images/sonrasi.png" alt=""></a>
-                                                        </figure>
+                                                        <img src="images/sonrasi.png" alt="">
+                                                       </figure>
                                                     </div>
                                                     <!-- /.thumb -->
-                                                    <p>29.05.2005 (BGBİ. I S. 2570) tarihli yasayla kapsamı genişletilen Tedavi İlaçları Reklam Kanunu’na göre 01.04.2006 itibariyle hastaların tedavi/operasyon öncesi ve sonrasına ait görüntülerini reklam amaçlı sergilemek yasaklanmıştır. Bu nedenle web sitemizde Operasyon Öncesi / Operasyon Sonrası fotoğraflarını sunamıyoruz. <p>
-                                                <p>Fotoğraflar için iletişim formunu doldurunuz.</p>
                                                    
+                                                    <p>29.05.2005 (BGBİ. I S. 2570) tarihli yasayla kapsamı genişletilen Tedavi İlaçları Reklam Kanunu’na göre 01.04.2006 itibariyle hastaların tedavi/operasyon öncesi ve sonrasına ait görüntülerini reklam amaçlı sergilemek yasaklanmıştır. Bu nedenle web sitemizde Operasyon Öncesi / Operasyon Sonrası fotoğraflarını sunamıyoruz. </p>
+                                                <p>Fotoğraflar için iletişim formunu doldurunuz.</p>
+                                                    
                                                 </div>
-                                                <!-- /.row -->
+                                               <!-- /.row -->
                                             </div>
                                             <!-- /.col -->
 
@@ -227,7 +225,7 @@
                             <!-- /.dropdown -->
 
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
+                                <a href="blog.aspx" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
                                 <!-- /.dropdown-menu -->
                             </li>
                              <!-- /.dropdown -->
@@ -297,7 +295,7 @@
                     <h4>BİZ KİMİZ ?</h4>
                     
                         <img class="logo img-intext" src="images/footerlogo.png" alt=""></a>
-                    <p>Magnis modipsae voloratati andigen daepeditem quiate re porem que aut labor. Laceaque eictemperum quiae sitiorem rest non restibusaes maio es dem tumquam.</p>
+                    <p>Estetik kliğimiz 2016 yılında faaliyet göstermeye başlamıştır.</p>
                     <a href="kurumsal.aspx" class="txt-btn">Hakkımızda Daha Fazlası</a>
                 </div>
                 <!-- /.col -->

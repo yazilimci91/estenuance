@@ -66,30 +66,30 @@
                     <div class="row" style="margin-top: 10px;   display:block;  ">
                         <div style="float: left; position:static">
                             <div class="col-sm-6" style="width: 50%; float: left;">
-                                <asp:TextBox ID="TextBox5" PlaceHolder="Ad-Soyad" CssClass="form-control" runat="server"></asp:TextBox>
+                                <asp:TextBox ID="TextBox1" PlaceHolder="Ad-Soyad" CssClass="form-control" runat="server"></asp:TextBox>
                             </div>
 
 
                               <div class="col-sm-6" style="float: right; width: 50%; float: right;">
-                                <asp:TextBox ID="TextBox6" PlaceHolder="Mesaj" CssClass="form-control" runat="server" TextMode="MultiLine"></asp:TextBox>
+                                <asp:TextBox ID="TextBox4" PlaceHolder="Mesaj" CssClass="form-control" runat="server" TextMode="MultiLine"></asp:TextBox>
                                 <br />
                                 <!-- /.col -->
                             </div>
 
                            
                             <div class="col-sm-6" style="width: 50%; float: left;">
-                                <asp:TextBox ID="TextBox7" PlaceHolder="Email" CssClass="form-control" runat="server" TextMode="Email"></asp:TextBox>
+                                <asp:TextBox ID="TextBox2" PlaceHolder="Email" CssClass="form-control" runat="server" TextMode="Email"></asp:TextBox>
                                 <br />
                             </div>
 
 
                             <div class="col-sm-6" style="width: 50%; float: left;">
-                                <asp:TextBox ID="TextBox8" PlaceHolder="Telefon" CssClass="form-control" runat="server"></asp:TextBox>
+                                <asp:TextBox ID="TextBox3" PlaceHolder="Telefon" CssClass="form-control" runat="server"></asp:TextBox>
                                 <br />
                             </div>
 
                             <div class="col-sm-6" style="width: 50%; float: left;">
-                                <asp:DropDownList ID="DropDownList2" runat="server" Width="100%">
+                                <asp:DropDownList ID="DropDownList1" runat="server" Width="100%">
                                     <asp:ListItem>Saç Ekim Önceliğiniz</asp:ListItem>
                                     <asp:ListItem>Kalite</asp:ListItem>
                                     <asp:ListItem>Fiyat</asp:ListItem>
@@ -108,7 +108,7 @@
                         <asp:Button ID="Button1" CssClass="btn btn-default btn-submit" runat="server" Text="Formu Gönder" OnClick="Button1_Click" />
 
                         <br />
-                        <asp:Label ID="Label2" runat="server"></asp:Label>
+                        <asp:Label ID="Label1" runat="server"></asp:Label>
                         <!-- /.col -->
                     </div>
 
@@ -150,10 +150,10 @@
 						<div class="container">
 							<div class="caption vertical-center text-center">
 								
-								<h1 class="fadeInDown-1 dark-bg light-color"><span>TEST EDİYORUZ</span></h1>
-								<p class="fadeInDown-2 dark-color">Create your online portfolio in minutes with the professionally and lovingly designed REEN website template. Customize your site with versatile and easy to use features.</p>
+								<h1 class="fadeInDown-1 dark-bg light-color"><span>SAÇLARINIZI YENİDEN GÖREBİLİRSİNİZ</span></h1>
+								<p class="fadeInDown-2 dark-color">Başarılı bir saç ekimi operasyonu sonrası saçlarınıza kavuşabilirsiniz.</p>
 								<div class="fadeInDown-3">
-									<a href="#" class="btn btn-large">Get started now</a>
+									<a href="iletisim.aspx" class="btn btn-large">Bİze Ulaşın</a>
 								</div><!-- /.fadeIn -->
 								
 							</div><!-- /.caption -->
@@ -164,10 +164,10 @@
 						<div class="container">
 							<div class="caption vertical-center text-right">
 								
-								<h1 class="fadeInLeft-1 light-color">Fresh and <br>beautiful design</h1>
-								<p class="fadeInLeft-2 light-color">REEN is designed to showcase your talent and put your work in the forefront. <br>Professionally use of typography and layout that fits your content.</p>
+								<h1 class="fadeInLeft-1 light-color"> PRP ve MEZOTERAPİ</h1>
+								<p class="fadeInLeft-2 light-color">Güçlü ve etkileyici saçlarınıza kavuşmanız için en iyi tedavi yöntemine birlikte karar verelim.</p>
 								<div class="fadeInLeft-3">
-									<a href="#" class="btn btn-large">Get started now</a>
+									<a href="ameliyatsizyontemler.aspx" class="btn btn-large">DAHA FAZLASI</a>
 								</div><!-- /.fadeIn -->
 								
 							</div><!-- /.caption -->
@@ -178,10 +178,10 @@
 						<div class="container">
 							<div class="caption vertical-top text-right">
 								
-								<h1 class="fadeIn-1 dark-bg light-color"><span>Just focus on <br>your creativity</span></h1>
-								<p class="fadeIn-2 light-color">Take a break from messing around with heavy coding and spend <br>your time brainstorming ideas for your next project.</p>
+								<h1 class="fadeIn-1 dark-bg light-color"><span>ENDİŞELERİNİZİ <br>ANLIYORUZ</span></h1>
+								<p class="fadeIn-2 dark-color">Saç dökülmesi, toplumun her kesiminde görülen sağlık problemidir.</p>
 								<div class="fadeIn-3">
-									<a href="#" class="btn btn-large">Get started now</a>
+									
 								</div><!-- /.fadeIn -->
 								
 							</div><!-- /.caption -->
@@ -204,7 +204,7 @@
 						<div class="col-md-8 col-sm-9 center-block text-center">
 							<header>
 								<h1>5 ADIMDA SAÇ EKİMİ</h1>
-								<p>Doloreiur quia commolu dolupta oreprerum tibusam.</p>
+								<p>Saç ekimine giden süreci adım adım inceleyin.</p>
 							</header>
 						</div><!-- /.col -->
 					</div><!-- /.row -->
@@ -214,11 +214,11 @@
 							<div class="tabs tabs-reasons tabs-circle-top tab-container">
 								
 								<ul class="etabs text-center">
-									<li class="tab"><a href="#tab-1"><div>1</div>Function</a></li>
-									<li class="tab"><a href="#tab-2"><div>2</div>Simplicity</a></li>
-									<li class="tab"><a href="#tab-3"><div>3</div>Design</a></li>
-									<li class="tab"><a href="#tab-4"><div>4</div>Social</a></li>
-									<li class="tab"><a href="#tab-5"><div>5</div>Community</a></li>
+									<li class="tab"><a href="#tab-1"><div>1</div>Karar Verme</a></li>
+									<li class="tab"><a href="#tab-2"><div>2</div>KLİNİK VE DOKTOR SEÇİMİ</a></li>
+									<li class="tab"><a href="#tab-3"><div>3</div>Ön Görüşme</a></li>
+									<li class="tab"><a href="#tab-4"><div>4</div>Operasyon</a></li>
+									<li class="tab"><a href="#tab-5"><div>5</div>Operasyon Sonrası</a></li>
 								</ul><!-- /.etabs -->
 								
 								<div class="panel-container">
@@ -227,12 +227,12 @@
 										<div class="row">
 											
 											<div class="col-md-5 col-md-push-5 col-md-offset-1 col-sm-6 col-sm-push-6 inner-left-xs">
-												<figure><img src="images/product04.jpg" alt=""></figure>
+												<figure><img src="" alt=""></figure>
 											</div><!-- /.col -->
 											
 											<div class="col-md-5 col-md-pull-5 col-sm-6 col-sm-pull-6 inner-top-xs inner-right-xs">
-												<h3>Function</h3>
-												<p>Magnis modipsae que lib voloratati andigen daepedor quiate ut reporemni aut labor. Laceaque quiae sitiorem ut restibusaes es tumquam core posae volor remped modis volor. Doloreiur qui commolu ptatemp dolupta orem retibusam emnis et consent accullignis lomnus.</p>
+												<h3>Karar verme</h3>
+												<p></p>
 											</div><!-- /.col -->
 											
 										</div><!-- /.row -->
@@ -242,12 +242,12 @@
 										<div class="row">
 											
 											<div class="col-md-5 col-md-offset-1 col-sm-6 inner-right-xs">
-												<figure><img src="images/product05.jpg" tppabs="http://demo.fuviz.com/reen/v1-4/assets/images/art/product05.jpg" alt=""></figure>
+												<figure><img src="" alt=""></figure>
 											</div><!-- /.col -->
 											
 											<div class="col-md-5 col-sm-6 inner-top-xs inner-left-xs">
-												<h3>Simplicity</h3>
-												<p>Magnis modipsae que lib voloratati andigen daepedor quiate ut reporemni aut labor. Laceaque quiae sitiorem ut restibusaes es tumquam core posae volor remped modis volor. Doloreiur qui commolu ptatemp dolupta orem retibusam emnis et consent accullignis lomnus.</p>
+												<h3>Klinik ve Doktor Seçimi</h3>
+												<p></p>
 											</div><!-- /.col -->
 											
 										</div><!-- /.row -->
@@ -257,17 +257,17 @@
 										<div class="row">
 											
 											<div class="col-md-4 col-md-push-3 col-md-offset-1 col-sm-6 inner-left-xs inner-right-xs">
-												<figure><img src="images/product06.jpg" alt=""></figure>
+												<figure><img src="" alt=""></figure>
 											</div><!-- /.col -->
 											
 											<div class="col-md-3 col-md-pull-4 col-sm-6 inner-top-xs">
-												<h3>Design</h3>
-												<p>Magnis modipsae lib voloratati andigen daepedor quiate aut labor. Laceaque quiae sitiorem resti est lore tumquam core posae volor uso remped modis volor. Doloreiur qui commolu ptatemp dolupta orem retibusam emnis et consent it accullignis orum lomnus.</p>
+												<h3>Ön Görüşme</h3>
+												<p></p>
 											</div><!-- /.col -->
 											
 											<div class="col-md-3 col-sm-6 inner-top-xs">
-												<h3>User interface</h3>
-												<p>Magnis modipsae lib voloratati andigen daepedor quiate aut labor. Laceaque quiae sitiorem resti est lore tumquam core posae volor uso remped modis volor. Doloreiur qui commolu ptatemp dolupta orem retibusam emnis et consent it accullignis orum lomnus.</p>
+												<h3></h3>
+												<p></p>
 											</div><!-- /.col -->
 											
 										</div><!-- /.row -->
@@ -277,14 +277,14 @@
 										
 										<div class="row">
 											<div class="col-md-5 col-sm-6 col-xs-8 center-block text-center">
-												<figure><img src="images/product03.jpg" alt=""></figure>
+												<figure><img src="" alt=""></figure>
 											</div><!-- /.col -->
 										</div><!-- /.row -->
 										
 										<div class="row">
 											<div class="col-sm-8 center-block text-center inner-top-xs">
-												<h3>Social</h3>
-												<p>Magnis modipsae que lib voloratati andigen daepedor quiate ut reporemni aut labor. Laceaque sitiorem ut restibusaes es tumquam core posae volor remped modis volor. Doloreiur qui commolu ptatemp dolupta orem retibusam emnis et consent accullignis lomnus.</p>
+												<h3>OPERASYON</h3>
+												<p></p>
 											</div><!-- /.col -->
 										</div><!-- /.row -->
 										
@@ -293,8 +293,8 @@
 									<div class="tab-content" id="tab-5">
 										<div class="row">
 											<div class="col-md-8 col-sm-9 center-block text-center">
-												<h3>Community</h3>
-												<p>Magnis modipsae que lib voloratati andigen daepeditem quiate ut reporemni aut labor. Laceaque quiae sitiorem rest non restibusaes es tumquam core posae volor remped modis volor. Doloreiur qui commolu ptatemp dolupta oreprerum tibusam emnis et consent accullignis.</p>
+												<h3>Operasyon sonrası dikkat edilmesi gerekenler.</h3>
+												<p></p>
 											</div><!-- /.col -->
 										</div><!-- /.row -->
 									</div><!-- /.tab-content -->
@@ -325,7 +325,7 @@
 							<h2>FUE YÖNTEMİNDE DONÖR ALANI ?</h2>
 							<p> Saç ekiminde donör(verici) alan olarak, başın arka kısmındaki iki kulak arasındaki bölge kullanılır. Bu bölgedeki saç kökleri, ileri düzeyde yaşlılık, fizyolojik bir etken veya çok ciddi bir sağlık sorunu olmadığı sürece dökülmesi neredeyse imkansızdır. Bu da ekilen köklerin bir ömür kalıcı olmasını sağlar.
                            </p>
-							<a href="sacekimi.aspx" class="txt-btn">Daha fazla bilgi için tıklayınız.</a>
+							<a href="blog.aspx" class="txt-btn">Daha fazla bilgi için tıklayınız.</a>
 						</div><!-- /.col -->
 						
 					</div><!-- /.row -->
@@ -333,13 +333,13 @@
 					<div class="row inner-top-md">
 						
 						<div class="col-sm-6 col-sm-push-6 inner-left-xs">
-							<figure><img src="images/saekimi.png" alt=""></figure>
+							<figure><img src="images/kokonemi.png" alt=""></figure>
 						</div><!-- /.col -->
 						
 						<div class="col-sm-6 col-sm-pull-6 inner-top-xs inner-right-xs">
 							<h2>Saç Ekiminde Kök Sayısının Önemi</h2>
 							<p> Ekilenilen saç köklerine "Greft" denilir. Kök sayısı kişinin ihtiyacına göre değişiklik gösterir. Estenuance olarak hedefimiz "Tek operasyonda kişinin ihtiyacı olan maximum kök sayısına ulaşmak ve daha doğal, daha yoğun bir görüntü elde etmektir." Ancak bazı kişilerde kök ihtiyacının çokluğuna oranla donör alanı oldukça zayıftır. Kök alımlarında bir önemli konuda donör alanında mevcut yapıya zarar vermemek ve doğallığını bozmamaktır.</p>
-							<a href="sacekimi.aspx" class="txt-btn">Daha fazla bilgi için tıklayınız.</a>
+							<a href="blog.aspx" class="txt-btn">Daha fazla bilgi için tıklayınız.</a>
 						</div><!-- /.col -->
 						
 					</div><!-- /.row -->
@@ -352,8 +352,8 @@
 						
 						<div class="col-sm-6 inner-top-xs inner-left-xs">
 							<h2>Sosyal Medya Hesaplarımız</h2>
-							<p>Magnis modipsae que lib voloratati andigen daepeditem quiate ut reporemni aut labor. Laceaque quiae sitiorem rest non restibusaes es tumquam core posae volor remped modis volor. Doloreiur qui commolu ptatemp dolupta oreprerum tibusam emnis et consent accullignis.</p>
-							<a href="#" class="txt-btn">Learn more about it</a>
+							<p>Günümüz dünyasında sosyal medyanın tüm gücüne inanıyoruz ve doğrultuda hesaplarımızı aktif olarak kullanıyor ve bize daha rahat ulaşabilmeniz adına var gücümüzle çalışıyoruz. .</p>
+							<a href="sosyalmedya.aspx" class="txt-btn">Hesaplarımıza ulaşmak için tıklayınız.</a>
 						</div><!-- /.col -->
 						
 					</div><!-- /.row -->
@@ -383,27 +383,27 @@
 								
 								<div class="item">
 									<blockquote>
-										<p>Need a professional kickass looking portfolio template, REEN is the way to go! It is simple, beautiful and really easy to use. Great product!</p>
+										<p>PRP tedavimden sonra saçlarım daha yoğun ve sağlıklı görünüme ulaştı. </p>
 										<footer>
-											<cite>Steve Gates</cite>
+											<cite>Hakan ÇAĞLAYAN</cite>
 										</footer>
 									</blockquote>
 								</div><!-- /.item -->
 								
 								<div class="item">
 									<blockquote>
-										<p>REEN is a sleek, beautiful, ridiculously easy to use multipurpose template. More importantly, it’s a huge time saver for busy creatives!</p>
+										<p>Estenuance personeli saç ekimi aşamalarım sırasında oldukça titiz ve özverili bir çalışma yürüttü kendilerine teşekkür ederim.</p>
 										<footer>
-											<cite>Amber Jones</cite>
+											<cite>Batuhan KAPANCI</cite>
 										</footer>
 									</blockquote>
 								</div><!-- /.item -->
 								
 								<div class="item">
 									<blockquote>
-										<p>Been putting off creating my portfolio for several years, then I found REEN and about 30 minutes later ... I have an awesome looking portfolio. Totally love it!</p>
+										<p>Saç ekimi işlemi sonrası kendime olan güvenim arttı. Estenuance ailesine teşekkürlerimi iletiyorum.</p>
 										<footer>
-											<cite>Bill Jobs</cite>
+											<cite>Mehmet ERÖZKAN</cite>
 										</footer>
 									</blockquote>
 								</div><!-- /.item -->

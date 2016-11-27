@@ -58,7 +58,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ameliyatsizyontemler.aspx" />
-    <Content Include="blog-post.html" />
     <Content Include="blog.aspx" />
     <Content Include="css\animate.min.css" />
     <Content Include="css\aos.css" />
@@ -209,8 +208,8 @@
     <Content Include="js\viewport-units-buggyfill.js" />
     <Content Include="kurumsal.aspx" />
     <Content Include="sacekimi.aspx" />
+    <Content Include="sosyalmedya.aspx" />
     <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ameliyatsizyontemler.aspx.cs">
@@ -263,12 +262,12 @@
     <Compile Include="sacekimi.aspx.designer.cs">
       <DependentUpon>sacekimi.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="sosyalmedya.aspx.cs">
+      <DependentUpon>sosyalmedya.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="sosyalmedya.aspx.designer.cs">
+      <DependentUpon>sosyalmedya.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
