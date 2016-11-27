@@ -129,7 +129,7 @@
                              <!-- ============================================================= Saç Ekimi Menüsü Başlangıç ============================================================= -->
 
                             <li class="dropdown yamm-fullwidth">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">SAÇ EKİMİ</a>
+                                <a href="sacekimi.aspx" class="dropdown-toggle" data-toggle="dropdown">SAÇ EKİMİ</a>
 
                                 <ul class="dropdown-menu yamm-dropdown-menu">
                                     <li>
@@ -196,7 +196,7 @@
                                                 <h4>SAÇ EKİMİNE NEDEN İHTİYAÇ DUYULUR ?</h4>
                                                 <p>Herkes sağlıklı, gür ve bakımlı saçlara sahip olmak ister. Ancak genetik ve zaman içerisinde karşılaşılan sorunlardan dolayı herkes sağlıklı ve gür saçlara sahip değildir. </p>
                                                 <p>Yaşlanmaya bağlı olarak da saçların dökülmesi insanları psikolojik açıdan olumsuz olarak etkilemektedir.</p>
-                                                <a href="about.html" class="btn">Daha Fazlası</a>
+                                                <a href="sacekimi.aspx" class="btn">Daha Fazlası</a>
                                             </div>
                                             <!-- /.col -->
 
@@ -211,11 +211,11 @@
                             <!-- ============================================================= Saç Ekimi Menüsü Sonu ============================================================= -->
 
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">AMELİYATSIZ YÖNTEMLER</a>
+                                <a href="ameliyatsizyontemler.aspx" class="dropdown-toggle" data-toggle="dropdown">AMELİYATSIZ YÖNTEMLER</a>
 
                                 <ul class="dropdown-menu">
-                                    <li><a href="index.html">MEZOTERAPİ</a></li>
-                                    <li><a href="index2.html">PRP</a></li>
+                                    <li><a href="ameliyatsizyontemler.aspx">MEZOTERAPİ</a></li>
+                                    <li><a href="ameliyatsizyontemler.aspx">PRP</a></li>
                                 </ul>
                                 <!-- /.dropdown-menu -->
                             </li>
