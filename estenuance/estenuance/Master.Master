@@ -98,7 +98,7 @@
                     <!-- ============================================================= LOGO MOBILE ============================================================= -->
 
                     <a class="navbar-brand" href="Default.aspx">
-                        <img src="images/logo.png" class="logo" alt=""></a>
+                        <img src="images/favicon.ico" class="logo" alt=""></a>
 
                     <!-- ============================================================= LOGO MOBILE : END ============================================================= -->
 
@@ -156,7 +156,7 @@
                                                 <ul class="circled">
                                                     <li><a href="portfolio2.html">Fue Yöntemiyle Saç Ekimi </a></li>
                                                     <li><a href="portfolio5.html" >PRP Destekli Saç Ekimi</a></li>
-                                                    <li><a href="portfolio-post5.html">Perkütan Saç Ekimi</a></li>
+                                                    <li><a href="portfolio-post5.html">Sakal,Bıyık ve Kaş Ekimi </a></li>
                                                     <li><a href="blog5.html">Traşsız Saç Ekimi </a></li>
                                                     <li><a href="blog7.html"</a> DHI Saç Ekimi</li>
                                                 </ul>
@@ -290,7 +290,8 @@
     </form>
 
 
-
+ <!-- ============================================================= FOOTER : BAŞLANGIÇ
+      ============================================================= -->
 
 
     <footer class="dark-bg">
@@ -402,7 +403,7 @@
         <!-- .footer-bottom -->
     </footer>
 
-    <!-- ============================================================= FOOTER : END ============================================================= -->
+    <!-- ============================================================= FOOTER : BİTİŞ ============================================================= -->
 
     <!-- JavaScripts placed at the end of the document so the pages load faster -->
     <script src="js/jquery.min.js"></script>

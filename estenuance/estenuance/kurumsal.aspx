@@ -29,14 +29,12 @@
 								
 								<div class="col-sm-6 inner-right-xs inner-bottom-sm">
 									<h2>Vizyonumuz</h2>
-									<p>Magnis modipsae que lib voloratati andigen daepeditem quiate ut reporemni aut labor. Laceaque quiae sitiorem rest non restibusae es tumquam core posae volor remped modi volor. Doloreiur qui commolu temp dolupta oreprerum tibusam. Eumenis et consent accullignis dentibea autem inisita posae volor conecus resto explabo.</p>
-									<p>Eumenis et consent accullignis dentibea autem inisita posae volor conecus restivum explabo. Magnis modipsae que lib voloratati andigen daepeditem quiate ut reporemni restibusae es tumquam core labor.</p>
-								</div><!-- /.col -->
+									<p>Estenuance olarak, saç ekimi ve sağlık turizmi alanında bilimsel araştırmaları yakından takip etmek, en doğru hizmeti en ekonomik koşullarda sunarak tarafımızı tercih eden kişilerin yaşam kalitelerini yükseltmektir.</p>
+                                 </div><!-- /.col -->
 								
 								<div class="col-sm-6 inner-left-xs inner-bottom-sm">
 									<h2>Misyonumuz</h2>
-									<p>Magnis modipsae que lib voloratati andigen daepeditem quiate ut reporemni aut labor. Laceaque quiae sitiorem rest non restibusae es tumquam core posae volor remped modi volor. Doloreiur qui commolu temp dolupta oreprerum tibusam umenis autem consent accullignis dentibea inisita posae volor.</p>
-									<p>Eumenis et consent accullignis dentibea autem inisita posae volor conecus restivum explabo. Magnis modipsae que lib voloratati andigen daepeditem quiate ut reporemni restibusae tumquam core labor. Columna ptatemp dolupta oreprerum tibusam.</p>
+									<p>Kaliteli hizmet sunum sürecinde, kişi odaklı, kişiye özel sağlık hizmeti sunmak, Çalışmaların devamlılığını sağlayarak süreklilik ilkesinde tercih edilen, güvenilir bir kurum olmak.</p>
 								</div><!-- /.col -->
 								
 							</div><!-- ./row -->
@@ -65,7 +63,7 @@
 												<div class="info">
 													<ul class="social">
 														<li><a href="#"><i class="icon-s-facebook"></i></a></li>
-														<li><a href="#"><i class="icon-s-gplus"></i></a></li>
+														<li><a href="#"><i class="icon-s-instagram"></i></a></li>
 														<li><a href="#"><i class="icon-s-twitter"></i></a></li>
 													</ul><!-- /.social -->
 												</div><!-- /.info -->
@@ -94,7 +92,7 @@
 												<div class="info">
 													<ul class="social">
 														<li><a href="#"><i class="icon-s-facebook"></i></a></li>
-														<li><a href="#"><i class="icon-s-gplus"></i></a></li>
+														<li><a href="#"><i class="icon-s-instagram"></i></a></li>
 														<li><a href="#"><i class="icon-s-twitter"></i></a></li>
 													</ul><!-- /.social -->
 												</div><!-- /.info -->
@@ -127,7 +125,7 @@
 												<div class="info">
 													<ul class="social">
 														<li><a href="#"><i class="icon-s-facebook"></i></a></li>
-														<li><a href="#"><i class="icon-s-gplus"></i></a></li>
+														<li><a href="#"><i class="icon-s-instagram"></i></a></li>
 														<li><a href="#"><i class="icon-s-twitter"></i></a></li>
 													</ul><!-- /.social -->
 												</div><!-- /.info -->
@@ -147,34 +145,7 @@
 									</figure>
 								</div><!-- /.col -->
 								
-								<div class="col-sm-6 thumb">
-									<figure class="member">
-										
-										<div class="member-image">
-											
-											<div class="text-overlay">
-												<div class="info">
-													<ul class="social">
-														<li><a href="#"><i class="icon-s-facebook"></i></a></li>
-														<li><a href="#"><i class="icon-s-gplus"></i></a></li>
-														<li><a href="#"><i class="icon-s-twitter"></i></a></li>
-													</ul><!-- /.social -->
-												</div><!-- /.info -->
-											</div><!-- /.text-overlay -->
-											
-											<img src="images/human04.jpg">
-											
-										</div><!-- /.member-image -->
-										
-										<figcaption class="member-details bordered no-top-border">
-											<h3>
-												Toby Evans
-												<span>Senior Designer</span>
-											</h3>
-										</figcaption>
-										
-									</figure>
-								</div><!-- /.col -->
+								
 								
 							</div><!-- /.row -->
 					   </section>

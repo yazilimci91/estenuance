@@ -32,7 +32,7 @@
             height: 600px; 
             padding: 10px;
             background-color: #ffffff;
-            font-family: 'Segoe UI Light', sans-serif;
+            font-family: 'Lato', sans-serif;
             font-size: 15pt;
         }
 
@@ -320,8 +320,9 @@
 						
 						<div class="col-sm-6 inner-top-xs inner-left-xs">
 							<h2>FUE YÖNTEMİNDE DONÖR ALANI ?</h2>
-							<p>Magnis modipsae que lib voloratati andigen daepeditem quiate ut reporemni aut labor. Laceaque quiae sitiorem rest non restibusaes es tumquam core posae volor remped modis volor. Doloreiur qui commolu ptatemp dolupta oreprerum tibusam. Eumenis et consent accullignis dentibea autem inisita posae volor conecus resto explabo.</p>
-							<a href="#" class="txt-btn">Daha fazla bilgi için tıklayınız.</a>
+							<p> Saç ekiminde donör(verici) alan olarak, başın arka kısmındaki iki kulak arasındaki bölge kullanılır. Bu bölgedeki saç kökleri, ileri düzeyde yaşlılık, fizyolojik bir etken veya çok ciddi bir sağlık sorunu olmadığı sürece dökülmesi neredeyse imkansızdır. Bu da ekilen köklerin bir ömür kalıcı olmasını sağlar.
+                           </p>
+							<a href="sacekimi.aspx" class="txt-btn">Daha fazla bilgi için tıklayınız.</a>
 						</div><!-- /.col -->
 						
 					</div><!-- /.row -->
@@ -334,8 +335,8 @@
 						
 						<div class="col-sm-6 col-sm-pull-6 inner-top-xs inner-right-xs">
 							<h2>Saç Ekiminde Kök Sayısının Önemi</h2>
-							<p>Magnis modipsae que lib voloratati andigen daepeditem quiate es reporemus aut labor. Laceaque quiae sitiorem rest non restibusaes dem tumquam core posae volor remped modis volor. Doloreiur quia commolu ptatemp dolupta oreprerum tibusam eumenis et consent accullignis lib dentibea autem inisita. Conecus iure posae volor remped modis aut accabora incim resto explabo eictemperum quiae sitiorem.</p>
-							<a href="#" class="txt-btn">Visit the showroom</a>
+							<p> Ekilenilen saç köklerine "Greft" denilir. Kök sayısı kişinin ihtiyacına göre değişiklik gösterir. Estenuance olarak hedefimiz "Tek operasyonda kişinin ihtiyacı olan maximum kök sayısına ulaşmak ve daha doğal, daha yoğun bir görüntü elde etmektir." Ancak bazı kişilerde kök ihtiyacının çokluğuna oranla donör alanı oldukça zayıftır. Kök alımlarında bir önemli konuda donör alanında mevcut yapıya zarar vermemek ve doğallığını bozmamaktır.</p>
+							<a href="sacekimi.aspx" class="txt-btn">Daha fazla bilgi için tıklayınız.</a>
 						</div><!-- /.col -->
 						
 					</div><!-- /.row -->
