@@ -8,7 +8,8 @@
     <style>
         #mask {
             position: absolute;
-            left: 0;
+            text-align:center; 
+            float:right; 
             top: 0;
             z-index: 9000;
             background-color: #000;
@@ -17,21 +18,18 @@
 
         #boxes .window {
             position: absolute;
-            left: 0;
-            top: 0;
-            width: 440px;
-            height: 200px;
-            display: none;
+            width: 350px;
+            height: 250px; 
             z-index: 9999;
             padding: 20px;
-            border-radius: 15px;
-            text-align: center;
+            border-radius: 15px; 
         }
 
         #boxes #dialog {
             text-align: center;
-            width: 100%;
-            height: 550px;
+            
+            width: 95%; 
+            height: 600px; 
             padding: 10px;
             background-color: #ffffff;
             font-family: 'Segoe UI Light', sans-serif;
@@ -41,88 +39,58 @@
         #popupfoot {
             font-size: 16pt;
             position: relative;
-            top: 0px;
+            top: 0px; 
+            float:right;
             width: 20px;
             right:0;
-            margin-right:50px;
-            margin-left:50px;
-            margin-top:30px;
+           
 
             
                     }
     </style>
 
-
-    <div id="boxes" style="background-color: #2f4052; left:0">
-       
-        <div id="dialog" class="window" style="background-color: #2f4052;   ">
-             
-            <section id="contact-form">  
-                  <div id="popupfoot"><a href="#" class="close agree" ><img  src="images/close.png"  width="30px" height="30px"/></a>   </div>
-                <h2 style="color: #f5f3f3">Bize ulaşın...     </h2> 
-                <table align="center" style="width: 50%; padding: 3px"> 
-                    <tr>
-                        <td colspan="2" style="color: #ffffff">Size kısa süre içerisinde hizmetlerimizle ilgili en doğru bilgiyi verebilmemiz için iletişim bilgilerinizi lütfen eksiksiz olarak bizimle paylaşın.
-
-                        <br />
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>
-                            <div class="row">
-                                <div class="col-sm-6" style="width: 90%; padding-top: 20px ; ">
-                                    <asp:TextBox ID="TextBox1" PlaceHolder="Ad-Soyad" CssClass="form-control" runat="server"></asp:TextBox>
-                                    <br />
-
-                                </div>
-                                <!-- /.col -->
-                            </div>
-                        </td>
-                        <td rowspan="3">
-                            <div class="row">
-                                <div class="col-sm-6" style="width: 90%; height: 100%; padding-top: 20px">
-                                    <asp:TextBox ID="TextBox4" PlaceHolder="Mesaj" CssClass="form-control" runat="server" TextMode="MultiLine"></asp:TextBox>
+      
+      <div id="boxes" style="background-color: #2f4052;  top:0; margin-top:0px; "> 
+         
+             <div id="dialog" class="window" style="background-color: #2f4052;  margin-top:0 ; ">
+            	<div class="container inner" style="margin-top:0px; text-align: center;">
+				  <div class="row" style="margin-top:0px">
+            	    <div class="col-md-8 inner-right inner-bottom-md" style="margin-top:0px;   ">
+                        
+               <section id="contact-form"  style="  text-align: center; position:absolute; left:40%; right:0%;">  
+                  <div id="popupfoot" style="margin-top:0px" ><a href="#" class="close agree" ><img  src="images/close.png"  width="30px" height="30px"/></a>   </div>
+                <h2 style="color: #f5f3f3; text-align: center;">Bize ulaşın...     </h2>  
+                   Size kısa süre içerisinde hizmetlerimizle ilgili en doğru bilgiyi verebilmemiz için iletişim bilgilerinizi lütfen eksiksiz olarak bizimle paylaşın.
+                    
+                           <div class="row" style="margin-top:10px;">
+                                <div class="col-sm-6" style="width: 50%;   float:left;">
+                                    <asp:TextBox ID="TextBox5" PlaceHolder="Ad-Soyad" CssClass="form-control" runat="server"></asp:TextBox> 
+                              </div> 
+                             
+                     
+                              
+                                <div class="col-sm-6" style="float:right; width: 50%;  float:right;">
+                                    <asp:TextBox ID="TextBox6" PlaceHolder="Mesaj" CssClass="form-control" runat="server" TextMode="MultiLine"></asp:TextBox>
                                     <br />
                                     <!-- /.col -->
                                 </div>
-                            </div>
+                            
 
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <!-- /.row -->
 
-                            <div class="row">
-                                <div class="col-sm-6" style="width: 90%">
-                                    <asp:TextBox ID="TextBox2" PlaceHolder="Email" CssClass="form-control" runat="server" TextMode="Email"></asp:TextBox>
-                                    <br />
-
-                                </div>
-                                <!-- /.col -->
-                            </div>
-                            <!-- /.row -->
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="row">
-                                <div class="col-sm-6" style="width: 90%">
-                                    <asp:TextBox ID="TextBox3" PlaceHolder="Telefon" CssClass="form-control" runat="server"></asp:TextBox>
-                                    <br />
-                                    <!-- /.col -->
-                                </div>
-                                <!-- /.row -->
-
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="row">
-                                <div class="col-sm-6" style="width: 90%; text-align: left">
-                                    <asp:DropDownList ID="DropDownList1" runat="server" Width="100%">
+                            
+                                <div class="col-sm-6" style="width: 50%;float:left;">
+                                    <asp:TextBox ID="TextBox7" PlaceHolder="Email" CssClass="form-control" runat="server" TextMode="Email"></asp:TextBox>
+                                    <br /> 
+                                </div> 
+                              
+                  
+                                <div class="col-sm-6" style="width: 50%; float:left;">
+                                    <asp:TextBox ID="TextBox8" PlaceHolder="Telefon" CssClass="form-control" runat="server"></asp:TextBox>
+                                    <br /> 
+                                </div>  
+                            
+                                <div class="col-sm-6" style="width: 50%;   float:left;">
+                                    <asp:DropDownList ID="DropDownList2" runat="server" Width="100%">
                                         <asp:ListItem>Saç Ekim Önceliğiniz</asp:ListItem>
                                         <asp:ListItem>Kalite</asp:ListItem>
                                         <asp:ListItem>Fiyat</asp:ListItem>
@@ -132,32 +100,26 @@
                                     <br />
 
                                 </div>
-                                <!-- /.col -->
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td   >
-                            <asp:Button ID="Button1" CssClass="btn btn-default btn-submit" runat="server" Text="Formu Gönder" OnClick="Button1_Click" />
-
-                        </td>
-                    </tr>
-                </table>
+                                 <asp:Button ID="Button1" CssClass="btn btn-default btn-submit" runat="server" Text="Formu Gönder" OnClick="Button1_Click" />
+                               
+                                <br />
+                                <asp:Label ID="Label2" runat="server"></asp:Label>
+                                                <!-- /.col -->
+                            </div> 
                  
-                <br />
-                <asp:Label ID="Label1" runat="server"></asp:Label>
                 <br />
 
                 <div id="response"></div>
             </section> 
-        </div>
+                     </div>
+                       </div>
+                     </div>
+            	  </div>
+                 
         <div id="mask"></div>
     </div>
+
+    
 
 
 
