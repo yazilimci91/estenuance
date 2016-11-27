@@ -5692,7 +5692,7 @@ input:focus:-ms-input-placeholder {
 	
 	#blog-post .post figure figcaption p {
 		font-size: 14px;
-		line-height: 150%;
+		line-height: 50%;
 	}
 	
 	[class*="col"] > figcaption:first-child {

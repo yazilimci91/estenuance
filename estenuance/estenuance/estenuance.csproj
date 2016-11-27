@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="blog-post.html" />
     <Content Include="css\animate.min.css" />
     <Content Include="css\aos.css" />
     <Content Include="css\bootstrap.min.css" />
