@@ -96,7 +96,7 @@
 									</div><!-- /.col -->
 								</div>
 
-                                    <div class="row">
+                                <div class="row">
 									<div class="col-sm-6">
 										<asp:TextBox ID="TextBox4" PlaceHolder="Mesaj" CssClass="form-control"  runat="server" TextMode="MultiLine"></asp:TextBox>
                                         <br />
