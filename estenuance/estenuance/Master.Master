@@ -388,7 +388,7 @@
                     <li><a href="sacekimi.aspx">Saç Ekimi</a></li>
                     <li><a href="ameliyatsizyontemler.aspx">Ameliyatsız Yöntemler</a></li>
                     <li><a href="kurumsal.aspx">Kurumsal</a></li>
-                    <li><a href="">Blog</a></li>
+                    <li><a href="blog.aspx">Blog</a></li>
                     <li><a href="iletisim.aspx">İletişim</a></li>
                 </ul>
                 <!-- .footer-menu -->

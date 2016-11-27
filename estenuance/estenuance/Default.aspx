@@ -12,12 +12,15 @@
             float: right;
             top: 0;
             z-index: -5;
+            font-family: 'Lato', sans-serif;
             background-color: #000;
             display: none;
         }
 
         #boxes .window {
             position: absolute;
+            margin-top:13px;
+            font-family: 'Lato', sans-serif;
             width: 100%;
             height: 250px;
             z-index: 9000;
@@ -39,6 +42,7 @@
             font-size: 16pt;
             position: relative;
             top: 0px;
+            font-family: 'Lato', sans-serif;
             float: right;
             width: 20px;
             right: 0;
@@ -46,7 +50,7 @@
     </style>
 
 
-    <div id="boxes" style="background-color: #2f4052;">
+    <div id="boxes" style="background-color: #2f4052; font-family: 'Lato', sans-serif;">
         <div id="dialog" class="window" style="background-color: #2f4052;">
             <div class="row" style="margin-top: 0px">
                 <section id="contact-form" style="text-align: center; padding: 5% 10% 0 10%">
