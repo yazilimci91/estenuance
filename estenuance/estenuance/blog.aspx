@@ -5,13 +5,13 @@
 
     <main>
         
-			<!-- ============================================================= SECTION – BLOG POST ============================================================= -->
+			<!-- ============================================================= Blog-Başlangıç ============================================================= -->
 			
 			<section id="blog-post" class="light-bg">
 				<div class="container inner-top-sm inner-bottom classic-blog">
 					<div class="row">
 						
-						<div class="col-md-9 inner-right-sm">
+						<div class="col-md-9 center-block">
 							<div class="sidemeta">
 								
 								<div class="post format-gallery">
@@ -38,15 +38,14 @@
 																
 										<figure>
 											<div class="row">
-												
 												<div class="col-sm-6 col-sm-push-6">
-													<img src="images/fueyontemindedonor.png"alt="">
+													<img src="images/fueyontemindedonor.png" alt="">
 												</div><!-- /.col -->
 												
 												<div class="col-sm-6 col-sm-pull-6">
 													<figcaption>
 														<h4>En iyi görünüm için</h4>
-														<p> Kök ihtiyacına oranla açıklığın fazla olması ve donör alanının yetersiz olması durumlarında ihtiyaç olan kök sayısına ulaşmak ve ekim alanında daha yoğun bir görüntüye ulaşmak için ikinci tercih olarak sakal (altçene) ve göğüs kılları tercih edilir.</p>
+														<p> Kök ihtiyacına oranla açıklığın fazla olması ve donör alanının yetersiz olması durumlarında ihtiyaç olan kök sayısına ulaşmak ve ekim alanında daha yoğun bir görüntüye ulaşmak için ikinci tercih olarak sakal (altçene) ve göğüs kılları tercih edilir. </p>
 													</figcaption>
 												</div><!-- /.col -->
 												
@@ -57,14 +56,7 @@
 									
 								</div><!-- /.post -->
 								
-								
-								
-						
-								
-								
-								
-								
-						
+			
 							
 							</div><!-- /.sidemeta -->
 						</div><!-- /.col -->
@@ -79,7 +71,7 @@
 				<div class="container inner-top-sm inner-bottom classic-blog">
 					<div class="row">
 						
-						<div class="col-md-9 inner-right-sm">
+						<div class="col-md-9 center-block">
 							<div class="sidemeta">
 								
 								<div class="post format-gallery">
@@ -143,7 +135,7 @@
 				</div><!-- /.container -->
 			</section>
 			
-			<!-- ============================================================= SECTION – BLOG POST : END ============================================================= -->
+			<!-- ============================================================= Blog- Bitiş ============================================================= -->
 			
 
     </main>

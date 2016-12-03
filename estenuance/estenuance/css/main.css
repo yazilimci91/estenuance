@@ -345,7 +345,7 @@ main header + * {
 	padding-top: 40px;
 }
 .inner-bottom {
-	padding-bottom: 120px;
+	padding-bottom: 20px;
 }
 .inner-bottom-md {
 	padding-bottom: 100px;
@@ -697,7 +697,7 @@ figure.post-media + * {
 	position: relative;
 	width: 100%;
 	height: auto !important;
-	background: url("screen-container.png")/*tpa=http://demo.fuviz.com/reen/v1-4/assets/images/art/screen-container.png*/ no-repeat top / 100%;
+	background: url("screen-container.png") 100%;
 	overflow: hidden;
 }
 .screen-container:before{
@@ -1860,6 +1860,14 @@ aside .thumb figure {
 
 }
 
+.btn-share-lg:hover .icon-s-linkedin:after,
+.btn-share-md:hover .icon-s-linkedin:after,
+.btn-share-sm:hover .icon-s-linkedin:after,
+.btn-share-xs:hover .icon-s-linkedin:after{
+    background: #0077b5;
+    background: #0077b5;
+
+}
 .btn-share-lg p,
 .btn-share-md p,
 .btn-share-sm p,
@@ -2019,6 +2027,11 @@ p .btn {
 .social a .icon-s-youtube:after {
     background: #b31217;
     background: #b31217;
+}
+
+.social a .icon-s-linkedin:after {
+    background: #0077b5;
+    background: #0077b5;
 }
 
 @font-face {
@@ -2367,7 +2380,7 @@ p .btn {
 	left: 0;
 	bottom: 0;
 	right: 0;
-	background: url("pattern-background01.jpg")/*tpa=http://demo.fuviz.com/reen/v1-4/assets/images/art/pattern-background01.jpg*/;
+	background: url("pattern-background01.jpg");
 	opacity: .05;
 }
 #testimonials #owl-testimonials {
@@ -5692,7 +5705,7 @@ input:focus:-ms-input-placeholder {
 	
 	#blog-post .post figure figcaption p {
 		font-size: 14px;
-		line-height: 50%;
+		line-height: 100%;
 	}
 	
 	[class*="col"] > figcaption:first-child {

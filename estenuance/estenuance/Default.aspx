@@ -58,7 +58,7 @@
                         <a href="#" class="close agree">
                             <img src="images/close.png" width="30px" height="30px" /></a>
                     </div>
-                    <h2 style="color: #f5f3f3; text-align: center;">Bize Sizi Arayalım...     </h2>
+                    <h2 style="color: #f5f3f3; text-align: center;">Biz Sizi Arayalım...     </h2>
                     Size kısa süre içerisinde hizmetlerimizle ilgili en doğru bilgiyi verebilmemiz için iletişim bilgilerinizi lütfen eksiksiz olarak bizimle paylaşın.
                     
                           

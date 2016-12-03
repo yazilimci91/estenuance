@@ -77,6 +77,7 @@
     <Content Include="fonts\fontello-social.svg" />
     <Content Include="fonts\fontello.css" />
     <Content Include="fonts\fontello.svg" />
+    <Content Include="hakkimizda.aspx" />
     <Content Include="iletisim.aspx" />
     <Content Include="images\client01.jpg" />
     <Content Include="images\client02.jpg" />
@@ -206,7 +207,6 @@
     <Content Include="js\scripts.js" />
     <Content Include="js\switchstylesheet.js" />
     <Content Include="js\viewport-units-buggyfill.js" />
-    <Content Include="kurumsal.aspx" />
     <Content Include="sacekimi.aspx" />
     <Content Include="sosyalmedya.aspx" />
     <Content Include="Web.config" />
@@ -233,19 +233,19 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="hakkimizda.aspx.cs">
+      <DependentUpon>hakkimizda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hakkimizda.aspx.designer.cs">
+      <DependentUpon>hakkimizda.aspx</DependentUpon>
+    </Compile>
     <Compile Include="iletisim.aspx.cs">
       <DependentUpon>iletisim.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="iletisim.aspx.designer.cs">
       <DependentUpon>iletisim.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="kurumsal.aspx.cs">
-      <DependentUpon>kurumsal.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="kurumsal.aspx.designer.cs">
-      <DependentUpon>kurumsal.aspx</DependentUpon>
     </Compile>
     <Compile Include="Master.Master.cs">
       <DependentUpon>Master.Master</DependentUpon>

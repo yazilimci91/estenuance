@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="kurumsal.aspx.cs" Inherits="estenuance.kurumsal" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="hakkimizda.aspx.cs" Inherits="estenuance.hakkimizda" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -160,7 +160,7 @@
 	
 			
 			<!-- ============================================================= SECTION – KLİNİK BAŞ. ============================================================= -->
-			<a name="medikal></a>
+			
 			<section id="office"  ">
 				<div class="container inner" >
 					
@@ -168,7 +168,6 @@
 						<div class="col-md-8 col-sm-9 center-block text-center">
 							<header>
 								<h1>KLİNİĞİMİZ</h1>
-								<p>Klinik fotoğraflarını öne çıkaracak bir kaç paragraflık yazı olabilir.</p>
 							</header>
 						</div><!-- /.col -->
 					</div><!-- /.row -->
@@ -227,3 +226,5 @@
 		
 
 </asp:Content>
+
+

@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace estenuance
 {
-    public partial class kurumsal : System.Web.UI.Page
-    {
-        protected void Page_Load(object sender, EventArgs e)
-        {
+	public partial class hakkimizda : System.Web.UI.Page
+	{
+		protected void Page_Load(object sender, EventArgs e)
+		{
 
-        }
-    }
+		}
+	}
 }
