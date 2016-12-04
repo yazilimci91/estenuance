@@ -294,20 +294,33 @@
                     <a href="hakkimizda.aspx" class="txt-btn">Hakkımızda Daha Fazlası</a>
                 </div>
                 <!-- /.col -->
-
-                
                 <div class="col-md-3 col-sm-6 inner">
-                    <h4>BİZE ULAŞIN</h4>
-                        <ul class="contacts">
-                        <li><i class="icon-location contact"></i>Abdi İpekçi Cad. No:21 Nil Apt. K:3 D:4 Nişantaşı/İSTANBUL</li>
-                        <li><i class="icon-mobile contact"></i>+90 (544) 467 1609</li>
-                        <li><i class="icon-mobile contact"></i>+90 (532) 680 2501 </li>
-                        <li><a href="#"><i class="icon-mail-1 contact"></i>info@estenuance.com</a></li>
-                    </ul>
-                    <!-- /.contacts -->
-                </div>
-                <!-- /.col -->
-
+						<h4>KLİNİĞİMİZ</h4>
+						
+						<div class="row thumbs gap-xs">
+														
+							<div class="col-xs-6 thumb">
+								<figure class="icon-overlay icn-link">
+									<a href="hakkimizda.aspx#office"><img src="images/klinik1.jpeg"alt=""></a>
+								</figure>
+							</div><!-- /.thumb --> 
+                            
+                            <div class="col-xs-6 thumb">
+								<figure class="icon-overlay icn-link">
+									<a href="hakkimizda.aspx#office"><img src="images/klinik2.jpeg"alt=""></a>
+								</figure>
+							</div><!-- /.thumb --> 
+                            
+                            <div class="col-xs-6 thumb">
+								<figure class="icon-overlay icn-link">
+									<a href="hakkimizda.aspx#office"><img src="images/klinik3.jpeg"alt=""></a>
+								</figure>
+							</div><!-- /.thumb --> 
+                                       
+                            </div><!-- /.row -->
+                            
+                    </div>
+                  <!-- /.col -->
                 <div class="col-md-3 col-sm-6 inner">
                     <h4>SOSYAL MEDYA HESAPLARIMIZ</h4>
 
@@ -361,24 +374,23 @@
                     <!-- /.row -->
                 </div>
                 <!-- /.col -->
-
-
-
                 <div class="col-md-3 col-sm-6 inner">
-                    <h4>E-BÜLTEN</h4>
-                    <p> Ücretsiz bir seans özel saç bakımı için E-Bültenimize üye olunuz.</p>
-                    <form id="newsletter" class="form-inline newsletter" role="form">
-                        <label class="sr-only" for="exampleInputEmail">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail" placeholder="E-Posta adresinizi giriniz."/>
-                        <button type="submit" class="btn btn-default btn-submit">Gönder</button>
-                    </form>
+                    <h4>BİZE ULAŞIN</h4>
+                        <ul class="contacts">
+                        <li><i class="icon-location contact"></i>Abdi İpekçi Cad. No:21 Nil Apt. K:3 D:4 Nişantaşı/İSTANBUL</li>
+                        <li><i class="icon-mobile contact"></i>+90 (544) 467 1609</li>
+                        <li><i class="icon-mobile contact"></i>+90 (532) 680 2501 </li>
+                        <li><a href="#"><i class="icon-mail-1 contact"></i>info@estenuance.com</a></li>
+                    </ul>
+                    <!-- /.contacts -->
                 </div>
                 <!-- /.col -->
-
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- .container -->
+                
+            
+            </div> <!----.row--->
+                </div>  <!-- .container -->
+       
+      
 
         <div class="footer-bottom">
             <div class="container inner">
@@ -415,7 +427,7 @@
     <script src="js/scripts.js"></script>
     <script src="js/custom.js"></script>
 
-    <!-- For demo purposes – can be removed on production -->
+    <!-- Renk CSS'i -->
     <link href="css/green.css" rel="alternate stylesheet" title="Green color">
     
 
@@ -426,7 +438,7 @@
             $(".changecolor").switchstylesheet({ seperator: "color" });
         });
     </script>
-    <!-- For demo purposes – can be removed on production : End -->
+    <!-- Renk Css'i -->
 
 </body>
 </html>

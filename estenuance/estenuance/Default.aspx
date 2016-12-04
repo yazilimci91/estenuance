@@ -5,138 +5,16 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
 
-    <style>
-        #mask {
-            position: absolute;
-            text-align: center;
-            float: right;
-            top: 0;
-            z-index: -5;
-            font-family: 'Lato', sans-serif;
-            background-color: #000;
-            display: none;
-        }
 
-        #boxes .window {
-            position: absolute;
-            margin-top:13px;
-            font-family: 'Lato', sans-serif;
-            width: 100%;
-            height: 250px;
-            z-index: 9000;
-            padding: 20px;
-            border-radius: 15px;
-        }
+        <div style="position: fixed; z-index: 19; right: 0; top: 180px; cursor: pointer; z-index: 9001">
 
-        #boxes #dialog {
-            text-align: center;
-            width: 100%;
-            height: 600px;
-            padding: 10px;
-            background-color: #ffffff;
-            font-family: 'Lato', sans-serif;
-            font-size: 15pt;
-        }
-
-        #popupfoot {
-            font-size: 16pt;
-            position: relative;
-            top: 0px;
-            font-family: 'Lato', sans-serif;
-            float: right;
-            width: 20px;
-            right: 0;
-        }
-    </style>
-
-
-    <div id="boxes" style="background-color: #2f4052; font-family: 'Lato', sans-serif;">
-        <div id="dialog" class="window" style="background-color: #2f4052;">
-            <div class="row" style="margin-top: 0px">
-                <section id="contact-form" style="text-align: center; padding: 5% 10% 0 10%">
-                    <div id="popupfoot" style="margin-top: 0px">
-                        <a href="#" class="close agree">
-                            <img src="images/close.png" width="30px" height="30px" /></a>
-                    </div>
-                    <h2 style="color: #f5f3f3; text-align: center;">Biz Sizi Arayalım...     </h2>
-                    Size kısa süre içerisinde hizmetlerimizle ilgili en doğru bilgiyi verebilmemiz için iletişim bilgilerinizi lütfen eksiksiz olarak bizimle paylaşın.
-                    
-                          
-
-                    <div class="row" style="margin-top: 10px;   display:block;  ">
-                        <div style="float: left; position:static">
-                            <div class="col-sm-6" style="width: 50%; float: left;">
-                                <asp:TextBox ID="TextBox1" PlaceHolder="Ad-Soyad" CssClass="form-control" runat="server"></asp:TextBox>
-                            </div>
-
-
-                              <div class="col-sm-6" style="float: right; width: 50%; float: right;">
-                                <asp:TextBox ID="TextBox4" PlaceHolder="Mesaj" CssClass="form-control" runat="server" TextMode="MultiLine"></asp:TextBox>
-                                <br />
-                                <!-- /.col -->
-                            </div>
-
-                           
-                            <div class="col-sm-6" style="width: 50%; float: left;">
-                                <asp:TextBox ID="TextBox2" PlaceHolder="Email" CssClass="form-control" runat="server" TextMode="Email"></asp:TextBox>
-                                <br />
-                            </div>
-
-
-                            <div class="col-sm-6" style="width: 50%; float: left;">
-                                <asp:TextBox ID="TextBox3" PlaceHolder="Telefon" CssClass="form-control" runat="server"></asp:TextBox>
-                                <br />
-                            </div>
-
-                            <div class="col-sm-6" style="width: 50%; float: left;">
-                                <asp:DropDownList ID="DropDownList1" runat="server" Width="100%">
-                                    <asp:ListItem>Saç Ekim Önceliğiniz</asp:ListItem>
-                                    <asp:ListItem>Kalite</asp:ListItem>
-                                    <asp:ListItem>Fiyat</asp:ListItem>
-                                    <asp:ListItem>Doğal Görünüm</asp:ListItem>
-                                    <asp:ListItem>Doktor</asp:ListItem>
-                                </asp:DropDownList>
-                                <br />
-
-                            </div>
-
-
-                           
-                        </div>
-
-
-                        <asp:Button ID="Button1" CssClass="btn btn-default btn-submit" runat="server" Text="Formu Gönder" OnClick="Button1_Click" />
-
-                        <br />
-                        <asp:Label ID="Label1" runat="server"></asp:Label>
-                        <!-- /.col -->
-                    </div>
-
-                    <br />
-
-
-                </section>
-            </div>
-        </div>
-
-        <div id="mask"></div>
-    </div>
-
-
-
-
-
-
-    <div style="position: fixed; z-index: 19; right: 0; top: 180px; cursor: pointer; z-index: 9001">
-
-        <a id="tikla" href="#" style="background-color: #1ABB9C">
+        <a href="#modal-contact01" data-toggle="modal">
             <div style="margin-left: 0px;">
                 <img src="images/sizi-arayalim-form-open.png" width="40px" height="265px" />
             </div>
         </a>
 
     </div>
-
 
 
     <main>
@@ -153,7 +31,8 @@
 								<h1 class="fadeInDown-1 dark-bg light-color"><span>SAÇLARINIZI YENİDEN GÖREBİLİRSİNİZ</span></h1>
 								<p class="fadeInDown-2 dark-color">Başarılı bir saç ekimi operasyonu sonrası saçlarınıza kavuşabilirsiniz.</p>
 								<div class="fadeInDown-3">
-									<a href="iletisim.aspx#contact-form" class="btn btn-large">Bize Ulaşın</a>
+                                   
+									<a href="#modal-contact01" data-toggle="modal" class="btn btn-large">RANDEVU</a>
 								</div><!-- /.fadeIn -->
 								
 							</div><!-- /.caption -->
@@ -164,10 +43,12 @@
 						<div class="container">
 							<div class="caption vertical-center text-right">
 								
-								<h1 class="fadeInLeft-1 light-color"> PRP ve MEZOTERAPİ</h1>
+								<h1 class="fadeInLeft-1 light-color"> SAÇLARINIZDAKİ REFERANS</h1>
+                                <h1 class="fadeInLeft-1 dark-bg light-color"><span>ESTENUANCE</span></h1>
+
 								<p class="fadeInLeft-2 light-color">Güçlü ve etkileyici saçlarınıza kavuşmanız için en iyi tedavi yöntemine birlikte karar verelim.</p>
 								<div class="fadeInLeft-3">
-									<a href="ameliyatsizyontemler.aspx" class="btn btn-large">DAHA FAZLASI</a>
+									<a href="#modal-contact01" data-toggle="modal" class="btn btn-large">RANDEVU</a>
 								</div><!-- /.fadeIn -->
 								
 							</div><!-- /.caption -->
@@ -193,7 +74,116 @@
 				</div><!-- /.owl-carousel -->
 			</section>
 			
+
 			<!-- ============================================================= SECTION – Slayt Bitiş ============================================================= -->
+
+
+
+          <!-- ============================================================= Yeni iletişim formu BAŞLANGIÇ
+                ============================================================= -->
+			
+			<div class="modal fade" id="modal-contact01" tabindex="-1" role="dialog" aria-labelledby="modal-contact01" aria-hidden="true">
+				<div class="modal-dialog modal-sm">
+					<div class="modal-content">
+						
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="icon-cancel-1"></i></span></button>
+							<h4 class="modal-title" id="modal-contact01">RANDEVU FORMU</h4>
+						</div><!-- /.modal-header -->
+						
+						<!-- ============================================================= MODAL CONTENT ============================================================= -->
+						
+						<div class="modal-body">
+							
+							
+							
+							
+							<!-- ============================================================= İletişim Formu ============================================================= -->
+                            <section id="contact-form">
+								<div class="container inner-xs">
+									<div class="row">
+										<div class="col-xs-12 inner-bottom-xs">
+
+					
+							
+							<h2>Bize ulaşın...</h2>
+							
+						 
+								<div class="row">
+									<div class="col-sm-6">
+										<asp:TextBox ID="TextBox5" PlaceHolder="Ad-Soyad" CssClass="form-control" runat="server"></asp:TextBox>
+                                        <br />
+										 
+									</div><!-- /.col -->
+								</div><!-- /.row -->
+								
+								<div class="row">
+									<div class="col-sm-6">
+										<asp:TextBox ID="TextBox6" PlaceHolder="Email" CssClass="form-control" runat="server" TextMode="Email"></asp:TextBox>
+                                        <br />
+										 
+									</div><!-- /.col -->
+								</div><!-- /.row -->
+								
+								<div class="row">
+									<div class="col-sm-6">
+										<asp:TextBox ID="TextBox7" PlaceHolder="Telefon" CssClass="form-control"  runat="server"></asp:TextBox>
+                                        <br />
+										 <!-- /.col -->
+								</div><!-- /.row -->
+
+                                    </div>
+
+								<div class="row">
+									<div class="col-sm-6">
+										<asp:DropDownList ID="DropDownList2" runat="server">
+                                            <asp:ListItem>Saç Ekim Önceliğiniz</asp:ListItem>
+                                            <asp:ListItem>Kalite</asp:ListItem>
+                                            <asp:ListItem>Fiyat</asp:ListItem>
+                                            <asp:ListItem>Doğal Görünüm</asp:ListItem>
+                                            <asp:ListItem>Doktor</asp:ListItem>
+                                        </asp:DropDownList>
+                                        <br />
+										  
+									</div><!-- /.col -->
+								</div>
+
+                                <div class="row">
+									<div class="col-xs-12">
+										<asp:TextBox ID="TextBox8" PlaceHolder="Mesaj" CssClass="form-control"  runat="server" TextMode="MultiLine"></asp:TextBox>
+                                        <br />
+										 <!-- /.col -->
+								</div>
+								 </div>
+								
+								    <asp:Button ID="Button2" CssClass="btn btn-default btn-submit" runat="server" Text="Formu Gönder"/>
+                                    <br />
+                            <asp:Label ID="Label2" runat="server"></asp:Label>
+                                    <br /> 
+							 
+							<div id="response"></div>
+
+
+                                            </div>
+
+                                        </div>
+                                   </div>
+
+						</section>
+						
+									
+				
+			
+							<!-- ============================================================= İletişim Formu ============================================================= -->
+						
+							
+						</div><!-- /.modal-body -->
+				</div>
+                 </div>  
+                </div> 		
+
+            <!-- ============================================================= Yeni iletişim formu BİTİŞ
+                ============================================================= -->
 			
             <!-- ============================================================= SECTION – Saç Ekimi Adımları Başlangıç ============================================================= -->
 			
@@ -231,8 +221,8 @@
 											</div><!-- /.col -->
 											
 											<div class="col-md-5 col-md-pull-5 col-sm-6 col-sm-pull-6 inner-top-xs inner-right-xs">
-												<h3>Karar verme</h3>
-												<p></p>
+												<h3>Araştırma ve Bilgi Edinme</h3>
+												<p> </p>
 											</div><!-- /.col -->
 											
 										</div><!-- /.row -->

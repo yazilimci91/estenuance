@@ -7,7 +7,7 @@
         
 			<!-- ============================================================= Blog-Başlangıç ============================================================= -->
 			
-			<section id="blog-post" class="light-bg">
+			<section id="donoralani" class="light-bg">
 				<div class="container inner-top-sm inner-bottom classic-blog">
 					<div class="row">
 						
@@ -67,7 +67,7 @@
 				</div><!-- /.container -->
 			</section>
 
-            <section id="blog-post" class="light-bg">
+            <section id="koksayisi" class="light-bg">
 				<div class="container inner-top-sm inner-bottom classic-blog">
 					<div class="row">
 						
