@@ -34,7 +34,8 @@
 							<h3 style="margin-top: 8px;">ESTENUANCE</h3>
 							<ul class="contacts">
 								<li><i class="icon-location contact"></i> Abdi İpekçi Cad. No:21 Nil Apt. K:3 D:4 Nişantaşı/İSTANBUL</li>
-								<li><i class="icon-mobile contact"></i> 0212 234 6713 - 0534 467 1608</li>
+								<li><i class="icon-mobile contact"></i>+90 534 467 1608</li>
+                                <li><i class="icon-mobile contact"></i>+90 532 680 2501</li>
 								<li><a href="mailto:info@estenuance.com"><i class="icon-mail-1 contact"></i> info@estenuance.com</a></li>
 							</ul><!-- /.contacts -->
 						</div><!-- /.col -->

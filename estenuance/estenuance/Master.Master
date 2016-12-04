@@ -148,11 +148,12 @@
                                                 <h4>SAÇ EKİMİ YÖNTEMLERİ</h4>
 
                                                 <ul class="circled">
-                                                    <li><a href="portfolio2.html">Fue Yöntemiyle Saç Ekimi </a></li>
-                                                    <li><a href="portfolio5.html" >PRP Destekli Saç Ekimi</a></li>
-                                                    <li><a href="portfolio-post5.html">Sakal,Bıyık ve Kaş Ekimi </a></li>
-                                                    <li><a href="blog5.html">Traşsız Saç Ekimi </a></li>
-                                                    <li><a href="blog7.html">DHI Saç Ekimi</a></li>
+                                                    <li><a href="sacekimi.aspx#fueyontemiylesacekimi">Fue Yöntemiyle Saç Ekimi </a></li>
+                                                    <li><a href="sacekimi.aspx#fueyontemiylesacekimi" >PRP Destekli Saç Ekimi</a></li>
+                                                    <li><a href="sacekimi.aspx#sakalbiyikdhi">Sakal,Bıyık ve Kaş Ekimi </a></li>
+                                                    <li><a href="sacekimi.aspx#sakalbiyikdhi">DHI Saç Ekimi</a></li>
+                                                    <li><a href="sacekimi.aspx#trassizsacekimi">Traşsız Saç Ekimi </a></li>
+                                                    
                                                 </ul>
                                                 <!-- /.circled -->
                                             </div>
@@ -178,7 +179,7 @@
                                                     <!-- /.thumb -->
                                                    
                                                     <p>29.05.2005 (BGBİ. I S. 2570) tarihli yasayla kapsamı genişletilen Tedavi İlaçları Reklam Kanunu’na göre 01.04.2006 itibariyle hastaların tedavi/operasyon öncesi ve sonrasına ait görüntülerini reklam amaçlı sergilemek yasaklanmıştır. Bu nedenle web sitemizde Operasyon Öncesi / Operasyon Sonrası fotoğraflarını sunamıyoruz. </p>
-                                            <p>Fotoğraflar için iletişim formunu <a href="iletisim.aspx">doldurunuz.</a></p>
+                                            <p>Fotoğraflar için iletişim formunu <a href="iletisim.aspx#contact-form">doldurunuz.</a></p>
                                                     
                                                 </div>
                                                <!-- /.row -->
@@ -189,7 +190,7 @@
                                                 <h4>SAÇ EKİMİNE NEDEN İHTİYAÇ DUYULUR ?</h4>
                                                 <p>Herkes sağlıklı, gür ve bakımlı saçlara sahip olmak ister. Ancak genetik ve zaman içerisinde karşılaşılan sorunlardan dolayı herkes sağlıklı ve gür saçlara sahip değildir. </p>
                                                 <p>Yaşlanmaya bağlı olarak da saçların dökülmesi insanları psikolojik açıdan olumsuz olarak etkilemektedir.</p>
-                                                <a href="sacekimi.aspx" class="btn">Daha Fazlası</a>
+                                                <a href="sacekimi.aspx#blog2" class="btn">Daha Fazlası</a>
                                             </div>
                                             <!-- /.col -->
 

@@ -153,7 +153,7 @@
 								<h1 class="fadeInDown-1 dark-bg light-color"><span>SAÇLARINIZI YENİDEN GÖREBİLİRSİNİZ</span></h1>
 								<p class="fadeInDown-2 dark-color">Başarılı bir saç ekimi operasyonu sonrası saçlarınıza kavuşabilirsiniz.</p>
 								<div class="fadeInDown-3">
-									<a href="iletisim.aspx" class="btn btn-large">Bİze Ulaşın</a>
+									<a href="iletisim.aspx#contact-form" class="btn btn-large">Bize Ulaşın</a>
 								</div><!-- /.fadeIn -->
 								
 							</div><!-- /.caption -->
@@ -325,7 +325,7 @@
 							<h2>FUE YÖNTEMİNDE DONÖR ALANI ?</h2>
 							<p> Saç ekiminde donör(verici) alan olarak, başın arka kısmındaki iki kulak arasındaki bölge kullanılır. Bu bölgedeki saç kökleri, ileri düzeyde yaşlılık, fizyolojik bir etken veya çok ciddi bir sağlık sorunu olmadığı sürece dökülmesi neredeyse imkansızdır. Bu da ekilen köklerin bir ömür kalıcı olmasını sağlar.
                            </p>
-							<a href="blog.aspx" class="txt-btn">Daha fazla bilgi için tıklayınız.</a>
+							<a href="blog.aspx#donoralani" class="txt-btn">Daha fazla bilgi için tıklayınız.</a>
 						</div><!-- /.col -->
 						
 					</div><!-- /.row -->
@@ -339,7 +339,7 @@
 						<div class="col-sm-6 col-sm-pull-6 inner-top-xs inner-right-xs">
 							<h2>Saç Ekiminde Kök Sayısının Önemi</h2>
 							<p> Ekilenilen saç köklerine "Greft" denilir. Kök sayısı kişinin ihtiyacına göre değişiklik gösterir. Estenuance olarak hedefimiz "Tek operasyonda kişinin ihtiyacı olan maximum kök sayısına ulaşmak ve daha doğal, daha yoğun bir görüntü elde etmektir." Ancak bazı kişilerde kök ihtiyacının çokluğuna oranla donör alanı oldukça zayıftır. Kök alımlarında bir önemli konuda donör alanında mevcut yapıya zarar vermemek ve doğallığını bozmamaktır.</p>
-							<a href="blog.aspx" class="txt-btn">Daha fazla bilgi için tıklayınız.</a>
+							<a href="blog.aspx#koksayisi" class="txt-btn">Daha fazla bilgi için tıklayınız.</a>
 						</div><!-- /.col -->
 						
 					</div><!-- /.row -->
