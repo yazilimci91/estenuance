@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F7DC26E5-007F-4DB4-8EC7-F6371BBAF62B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>estenuance</RootNamespace>
+    <AssemblyName>estenuance</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="de\blog.aspx" />
+    <Content Include="de\Default.aspx" />
+    <Content Include="de\hakkimizda.aspx" />
+    <Content Include="de\iletisim.aspx" />
+    <Content Include="de\sacekimi.aspx" />
+    <Content Include="de\sactedavileri.aspx" />
+    <Content Include="de\sosyalmedya.aspx" />
+    <Content Include="en\blog.aspx" />
+    <Content Include="en\Default.aspx" />
+    <Content Include="en\hakkimizda.aspx" />
+    <Content Include="en\iletisim.aspx" />
+    <Content Include="en\sacekimi.aspx" />
+    <Content Include="en\sactedavileri.aspx" />
+    <Content Include="en\sosyalmedya.aspx" />
+    <Content Include="images\letuscallyou.png" />
+    <Content Include="tr\sactedavileri.aspx" />
+    <Content Include="tr\blog.aspx" />
+    <Content Include="css\animate.min.css" />
+    <Content Include="css\aos.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\css-family=Lato-400,900,300,700.css" />
+    <Content Include="css\css-family=Source+Sans+Pro-400,700,400italic,700italic.css" />
+    <Content Include="css\custom.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\green.css" />
+    <Content Include="css\main.css" />
+    <Content Include="css\owl.carousel.css" />
+    <Content Include="css\owl.transitions.css" />
+    <Content Include="tr\Default.aspx" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\fontello-circle.svg" />
+    <Content Include="fonts\fontello-social.svg" />
+    <Content Include="fonts\fontello.css" />
+    <Content Include="fonts\fontello.svg" />
+    <Content Include="tr\hakkimizda.aspx" />
+    <Content Include="tr\iletisim.aspx" />
+    <Content Include="images\close.png" />
+    <Content Include="images\contact.png" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\favicon.png" />
+    <Content Include="images\footerlogo.png" />
+    <Content Include="images\fueyontemindedonor.png" />
+    <Content Include="images\grabbing.png" />
+    <Content Include="images\human01.jpg" />
+    <Content Include="images\human02.jpg" />
+    <Content Include="images\human03.jpg" />
+    <Content Include="images\human04.jpg" />
+    <Content Include="images\human05.jpg" />
+    <Content Include="images\human06.jpg" />
+    <Content Include="images\humans01.jpg" />
+    <Content Include="images\image-background01.jpg" />
+    <Content Include="images\image-background02.jpg" />
+    <Content Include="images\image-background03.jpg" />
+    <Content Include="images\image-background04.jpg" />
+    <Content Include="images\klinik1.jpeg" />
+    <Content Include="images\klinik2.jpeg" />
+    <Content Include="images\klinik3.jpeg" />
+    <Content Include="images\logo-white.svg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\logo.svg" />
+    <Content Include="images\office01.jpg" />
+    <Content Include="images\office02.jpg" />
+    <Content Include="images\office03.jpg" />
+    <Content Include="images\oncesi.png" />
+    <Content Include="images\pattern-background01.jpg" />
+    <Content Include="images\pattern-background02.png" />
+    <Content Include="images\pattern-background03.png" />
+    <Content Include="images\photograph01-lg.jpg" />
+    <Content Include="images\photograph02.jpg" />
+    <Content Include="images\photograph03.jpg" />
+    <Content Include="images\photograph04-lg.jpg" />
+    <Content Include="images\product01.jpg" />
+    <Content Include="images\product02.jpg" />
+    <Content Include="images\product03.jpg" />
+    <Content Include="images\product04.jpg" />
+    <Content Include="images\product05.jpg" />
+    <Content Include="images\product06.jpg" />
+    <Content Include="images\sacekimialani.png" />
+    <Content Include="images\saekimi.png" />
+    <Content Include="images\screen-container.png" />
+    <Content Include="images\service01.jpg" />
+    <Content Include="images\sizi-arayalim-form-open.png" />
+    <Content Include="images\slider01.jpg" />
+    <Content Include="images\slider02.jpg" />
+    <Content Include="images\slider03.jpg" />
+    <Content Include="images\slider04.jpg" />
+    <Content Include="images\slider05.jpg" />
+    <Content Include="images\slider06.jpg" />
+    <Content Include="images\sonrasi.png" />
+    <Content Include="images\çizgiplanlama.png" />
+    <Content Include="js\analytics.js" />
+    <Content Include="js\anchor.js" />
+    <Content Include="js\aos.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\custom.js" />
+    <Content Include="js\html5shiv.js" />
+    <Content Include="js\imagesloaded.pkgd.min.js" />
+    <Content Include="js\jquery.easing.1.3.min.js" />
+    <Content Include="js\jquery.easytabs.min.js" />
+    <Content Include="js\jquery.form.js" />
+    <Content Include="js\jquery.full-search.js" />
+    <Content Include="js\jquery.isotope.min.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.validate.min.js" />
+    <Content Include="js\npm.js" />
+    <Content Include="js\owl.carousel.min.js" />
+    <Content Include="js\respond.min.js" />
+    <Content Include="js\scripts.js" />
+    <Content Include="js\switchstylesheet.js" />
+    <Content Include="js\viewport-units-buggyfill.js" />
+    <Content Include="tr\sacekimi.aspx" />
+    <Content Include="tr\sosyalmedya.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="de\blog.aspx.cs">
+      <DependentUpon>blog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="de\blog.aspx.designer.cs">
+      <DependentUpon>blog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="de\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="de\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="de\hakkimizda.aspx.cs">
+      <DependentUpon>hakkimizda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="de\hakkimizda.aspx.designer.cs">
+      <DependentUpon>hakkimizda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="de\iletisim.aspx.cs">
+      <DependentUpon>iletisim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="de\iletisim.aspx.designer.cs">
+      <DependentUpon>iletisim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="de\de.Master.cs">
+      <DependentUpon>de.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="de\de.Master.designer.cs">
+      <DependentUpon>de.Master</DependentUpon>
+    </Compile>
+    <Compile Include="de\sacekimi.aspx.cs">
+      <DependentUpon>sacekimi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="de\sacekimi.aspx.designer.cs">
+      <DependentUpon>sacekimi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="de\sactedavileri.aspx.cs">
+      <DependentUpon>sactedavileri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="de\sactedavileri.aspx.designer.cs">
+      <DependentUpon>sactedavileri.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="de\sosyalmedya.aspx.cs">
+      <DependentUpon>sosyalmedya.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="de\sosyalmedya.aspx.designer.cs">
+      <DependentUpon>sosyalmedya.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="en\blog.aspx.cs">
+      <DependentUpon>blog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="en\blog.aspx.designer.cs">
+      <DependentUpon>blog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="en\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="en\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="en\hakkimizda.aspx.cs">
+      <DependentUpon>hakkimizda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="en\hakkimizda.aspx.designer.cs">
+      <DependentUpon>hakkimizda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="en\iletisim.aspx.cs">
+      <DependentUpon>iletisim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="en\iletisim.aspx.designer.cs">
+      <DependentUpon>iletisim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="en\en.Master.cs">
+      <DependentUpon>en.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="en\en.Master.designer.cs">
+      <DependentUpon>en.Master</DependentUpon>
+    </Compile>
+    <Compile Include="en\sacekimi.aspx.cs">
+      <DependentUpon>sacekimi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="en\sacekimi.aspx.designer.cs">
+      <DependentUpon>sacekimi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="en\sactedavileri.aspx.cs">
+      <DependentUpon>sactedavileri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="en\sactedavileri.aspx.designer.cs">
+      <DependentUpon>sactedavileri.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="en\sosyalmedya.aspx.cs">
+      <DependentUpon>sosyalmedya.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="en\sosyalmedya.aspx.designer.cs">
+      <DependentUpon>sosyalmedya.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tr\sactedavileri.aspx.cs">
+      <DependentUpon>sactedavileri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tr\sactedavileri.aspx.designer.cs">
+      <DependentUpon>sactedavileri.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tr\blog.aspx.cs">
+      <DependentUpon>blog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tr\blog.aspx.designer.cs">
+      <DependentUpon>blog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tr\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tr\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tr\hakkimizda.aspx.cs">
+      <DependentUpon>hakkimizda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tr\hakkimizda.aspx.designer.cs">
+      <DependentUpon>hakkimizda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tr\iletisim.aspx.cs">
+      <DependentUpon>iletisim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tr\iletisim.aspx.designer.cs">
+      <DependentUpon>iletisim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tr\Master.Master.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tr\Master.Master.designer.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tr\sacekimi.aspx.cs">
+      <DependentUpon>sacekimi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tr\sacekimi.aspx.designer.cs">
+      <DependentUpon>sacekimi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tr\sosyalmedya.aspx.cs">
+      <DependentUpon>sosyalmedya.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tr\sosyalmedya.aspx.designer.cs">
+      <DependentUpon>sosyalmedya.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\fontello-.eot" />
+    <Content Include="fonts\fontello-circle.eot" />
+    <Content Include="fonts\fontello-circle.ttf" />
+    <Content Include="fonts\fontello-circle.woff" />
+    <Content Include="fonts\fontello-social-.eot" />
+    <Content Include="fonts\fontello-social.eot" />
+    <Content Include="fonts\fontello-social.ttf" />
+    <Content Include="fonts\fontello-social.woff" />
+    <Content Include="fonts\fontello.eot" />
+    <Content Include="fonts\fontello.ttf" />
+    <Content Include="fonts\fontello.woff" />
+    <Content Include="fonts\nQhiC-wSiJx0pvEuJl8d8A.eot" />
+    <Content Include="fonts\ODelI1aHBYDBqgeIAH2zlN0tugusXa58UbOrParLRF0.eot" />
+    <Content Include="tr\Master.Master" />
+    <Content Include="en\en.Master" />
+    <Content Include="de\de.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3964</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:3964/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

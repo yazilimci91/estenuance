@@ -1,0 +1,452 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="de.Master.cs" Inherits="estenuance.de.Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <meta name="description" content="" />
+    <meta name="author" content=""/>
+
+    <title>Estenuance Saç Ekimi Merkezi</title>
+   
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <!-- Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../css/main.css" rel="stylesheet"/>
+
+    <!-- AddOn/Plugin CSS -->
+    <link href="../css/green.css"rel="stylesheet" title="Color"/>
+    <link href="../css/owl.carousel.css" rel="stylesheet"/>
+    <link href="../css/owl.transitions.css"rel="stylesheet"/>
+    <link href="../css/animate.min.css" rel="stylesheet"/>
+    <link href="../css/aos.css" rel="stylesheet"/>
+
+    <!-- Custom CSS -->
+    <link href="../css/custom.css" rel="stylesheet"/>
+
+ 
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,900,300,700" rel="stylesheet"/>
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic" rel="stylesheet"/>
+
+    <!-- Icons/Glyphs -->
+    <link href="../fonts/fontello.css" rel="stylesheet"/>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../images/favicon.ico"/>
+
+  
+
+    <!-- HTML5 elements and media queries Support for IE8 : HTML5 shim and Respond.js -->
+    <!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<script src="js/respond.min.js"></script>
+		<![endif]-->
+   
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <!-- ============================================================= HEADER ============================================================= -->
+
+    <header>
+        <div class="navbar">
+
+            <div class="navbar-header">
+                <div class="container">
+
+                    <ul class="info pull-left">
+                        <li><a href="#"><i class="icon-mail contact"></i>info@estenuance.com</a></li>
+                        <li><i class="icon-mobile"></i>+90 (544) 467 1609</li>
+                    </ul>
+                    <!-- /.info -->
+
+                    <ul class="social pull-right">
+                        
+                        <li><a href="https://www.facebook.com/estenuance/" target="_blank"><i class="icon-s-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/estenuance/" target="_blank"><i class="icon-s-instagram"></i></a></li>
+                        <li><a href="https://twitter.com/estenuance" target="_blank"><i class="icon-s-twitter"></i></a></li>
+                        <li><a href="https://plus.google.com/116939122685153038938" target="_blank"><i class="icon-s-gplus" target="_blank"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCPaO2LyoICe3G6H8bZEDxww" target="_blank"><i class="icon-s-youtube" target="_blank"></i></a></li>
+                        <li> 
+                            <li><a href="#" target="_blank"><i class="icon-s-linkedin" target="_blank"></i></a></li>
+                        <li> 
+                            <select class="social pull-right" onchange="location = this.value;" style="font-family:'Source Sans Pro', sans-serif; font-size:12px">
+                                 <option  value="../tr/Default.aspx"> TR</option>
+                                <option value="../en/Default.aspx"> EN</option>
+                                <option value="../ar/Default.aspx"> AR</option>
+                                 <option selected="selected" value="../de/Default.aspx"> DE</option>
+                                <option value="../it/Default.aspx"> IT</option>
+
+                            </select>
+
+                        </li>
+                    </ul>
+                    <!-- /.social -->
+
+                    <!-- ============================================================= LOGO MOBILE ============================================================= -->
+
+                    <a class="navbar-brand" href="Default.aspx">
+                        <img src="../images/favicon1.png" class="logo" alt="" /></a>
+
+                    <!-- ============================================================= LOGO MOBILE : END ============================================================= -->
+
+                    <a class="navbar-toggle btn responsive-menu pull-right" data-toggle="collapse" data-target=".navbar-collapse"><i class='icon-menu-1'></i></a>
+
+
+                </div>
+                <!-- /.container -->
+            </div>
+            <!-- /.navbar-header -->
+
+            <div class="yamm">
+                <div class="navbar-collapse collapse">
+                    <div class="container">
+
+                        <!-- ============================================================= LOGO ============================================================= -->
+
+                        <a class="navbar-brand" href="Default.aspx">
+                            <img src="../images/logo.png" class="logo" alt=""/></a>
+
+                        <!-- ============================================================= LOGO : END ============================================================= -->
+
+
+                        <!-- ============================================================= MAIN NAVIGATION ============================================================= -->
+                         
+
+                        <ul class="nav navbar-nav">
+
+                             <!-- ============================================================= Saç Ekimi Menüsü Başlangıç ============================================================= -->
+
+                            <li class="dropdown yamm-fullwidth">
+                                <a href="sacekimi.aspx" class="dropdown-toggle" data-toggle="dropdown">HAARTRANSPLANTATION</a>
+
+                                <ul class="dropdown-menu yamm-dropdown-menu">
+                                    <li>
+                                        <div class="yamm-content row">
+
+                                            <div class="col-sm-3 inner">
+                                                <h4>WAS IST HAARTRANSPLANTATION ?</h4>
+                                                <figure>
+                                                    <div class="icon-overlay icn-link">
+                                                         <img src="../images/sacekimialani.png" alt=""/>
+                                                    </div>
+                                                    <figcaption>
+                                                        <p>Die Haartransplantation ist eine ästhetische Operation, die für die Haarausfallsprobleme habenden Menschen gemacht wird.</p>
+                                                        <a href="sacekimi.aspx" class="btn">MEHR</a>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <!-- /.col -->
+
+                                            <div class="col-sm-3 inner">
+                                                <h4>METHODE DER HAARTRANSPLANTATION</h4>
+
+                                                <ul class="circled">
+                                                    <li><a href="sacekimi.aspx#fueyontemiylesacekimi">Fue-Methode</a></li>
+                                                    <li><a href="sacekimi.aspx#fueyontemiylesacekimi" >PRP stützte Transplantation</a></li>
+                                                    <li><a href="sacekimi.aspx#sakalbiyikdhi">Bart-, Schnauzbart- und Haartransplantation</a></li>
+                                                    <li><a href="sacekimi.aspx#sakalbiyikdhi">DHI Haartransplantation </a></li>
+                                                    <li><a href="sacekimi.aspx#trassizsacekimi">Unrasierte Haartransplantation</a></li>
+                                                    
+                                                </ul>
+                                                <!-- /.circled -->
+                                            </div>
+                                            <!-- /.col -->
+
+                                            <div class="col-sm-3 inner">
+                                                <h4>VOR / NACH DER OPERATION</h4>
+
+                                                <div class="row thumbs gap-xs">
+
+                                                    <div class="col-xs-6 thumb">
+                                                        <figure class="icon-overlay icn-link">
+                                                            <img src="../images/oncesi.png" alt="" />
+                                                        </figure>
+                                                    </div>
+                                                    <!-- /.thumb -->
+
+                                                    <div class="col-xs-6 thumb">
+                                                        <figure class="icon-overlay icn-link">
+                                                        <img src="../images/sonrasi.png" alt="" />
+                                                       </figure>
+                                                    </div>
+                                                    <!-- /.thumb -->
+                                                   
+                                                    <p>
+                                                        Gemäß dem Werbungsgesetzt bezüglich der Behandlungsmedikamente vom 29.05.2005 (BGBI.I S.2570) dürfen wir ab 01.04.2006 die Bilder betreffend die Behandlung/Operation nicht zeigen. Deshalb, finden Sie keine Fotos, welche die Situation vor und nach der Operation zeigen.
+                                                                    Für die Fotos<a href="iletisim.aspx#contact-form"> füllen</a> Sie bitte das Kontaktformblatt aus. 
+                                                        
+                                                    </p>
+                                                    
+                                                </div>
+                                               <!-- /.row -->
+                                            </div>
+                                            <!-- /.col -->
+
+                                            <div class="col-sm-3 inner">
+                                                <h4>WARUM TRANSPLANTIERT MAN DIE HAARE ?</h4>
+                                                <p>Alle Menschen wollen gesunde, starke und gut aussehende Haare haben, aber können mit der Zeit ihre Haare wegen genetischen Probleme den Haarausfall haben. </p>
+                                                <p>Das Problem kann auch wegen des Alters in Erfüllung gehen und das beeinträchtigt die Psychologie der Menschen. </p>
+                                                <a href="sacekimi.aspx#blog2" class="btn">MEHR</a>
+                                            </div>
+                                            <!-- /.col -->
+
+                                        </div>
+                                        <!-- /.yamm-content -->
+                                    </li>
+                                </ul>
+                                <!-- /.yamm-dropdown-menu -->
+                            </li>
+                            <!-- /.yamm-fullwidth -->
+
+                            <!-- ============================================================= Saç Ekimi Menüsü Sonu ============================================================= -->
+
+
+
+                            <li class="dropdown">
+                                <a href="sactedavileri.aspx" class="dropdown-toggle" data-toggle="dropdown">HAARBEHANDLUNGEN</a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a href="sactedavileri.aspx">MESOTHERAPIE</a></li>
+                                    <li><a href="sactedavileri.aspx">PRP</a></li>
+                                </ul>
+                                <!-- /.dropdown-menu -->
+                            </li>
+                            <!-- /.dropdown -->
+
+                              <li class="dropdown">
+                                <a href="hakkimizda.aspx" class="dropdown-toggle">ÜBER UNS</a>
+
+                         
+                            </li>
+                            <!-- /.dropdown -->
+
+                            <li class="dropdown">
+                                <a href="blog.aspx" class="dropdown-toggle">Blog</a>
+                                <!-- /.dropdown-menu -->
+                            </li>
+                             <!-- /.dropdown -->
+                            <li class="dropdown">
+                                <a href="iletisim.aspx" class="dropdown-toggle">KONTAKT</a>
+                            </li>
+                            <!-- /.dropdown -->
+
+                            <li class="dropdown pull-right searchbox">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-search"></i></a>
+
+                                <div class="dropdown-menu">
+                                    <form id="search" class="navbar-form search" role="search">
+                                        <input id="searcher"  type="search"   class="form-control" placeholder="estenuance.com suche"/>
+
+                                         
+
+                                        <button type="submit" class="btn btn-default btn-submit icon-right-open" ></button>
+                                    </form>
+                                </div>
+                                <!-- /.dropdown-menu -->
+                            </li>
+                            <!-- /.searchbox -->
+
+                        </ul>
+                        <!-- /.nav -->
+
+                        <!-- ============================================================= MAIN NAVIGATION : END ============================================================= -->
+
+                    </div>
+                    <!-- /.container -->
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.yamm -->
+        </div>
+        <!-- /.navbar -->
+    </header>
+
+    <!-- ============================================================= HEADER : END ============================================================= -->
+ 
+
+
+
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+
+ <!-- =============================================================  footer : BAŞLANGIÇ
+      ============================================================= -->
+
+
+    <footer class="dark-bg">
+        <div class="container inner">
+            <div class="row">
+
+                <div class="col-md-3 col-sm-6 inner">
+                    <h4>WER SIND WIR ?</h4>
+                    
+                        <img class="logo img-intext" src="../images/footerlogo.png" alt="" /></a>
+                    <p>Unsere ästhetische Klinik ist tätig ab dem Jahr 2014.</p>
+                    <a href="hakkimizda.aspx" class="txt-btn">Für ausführliche Information</a>
+                </div>
+                <!-- /.col -->
+                <div class="col-md-3 col-sm-6 inner">
+						<h4>UNSERE KLINIK</h4>
+						
+						<div class="row thumbs gap-xs">
+														
+							<div class="col-xs-6 thumb">
+								<figure class="icon-overlay icn-link">
+									<a href="hakkimizda.aspx#office"><img src="../images/klinik1.jpg"alt="" /></a>
+								</figure>
+							</div><!-- /.thumb --> 
+                            
+                            <div class="col-xs-6 thumb">
+								<figure class="icon-overlay icn-link">
+									<a href="hakkimizda.aspx#office"><img src="../images/klinik2.jpg"alt="" /></a>
+								</figure>
+							</div><!-- /.thumb --> 
+                            
+                            <div class="col-xs-6 thumb">
+								<figure class="icon-overlay icn-link">
+									<a href="hakkimizda.aspx#office"><img src="../images/klinik3.jpg"alt="" /></a>
+								</figure>
+							</div><!-- /.thumb --> 
+                            <div class="col-xs-6 thumb">
+								<figure class="icon-overlay icn-link">
+									<a href="hakkimizda.aspx#office"><img src="../images/klinik4.jpg"alt="" /></a>
+								</figure>
+							</div><!-- /.thumb --> 
+                            <div class="col-xs-6 thumb">
+								<figure class="icon-overlay icn-link">
+									<a href="hakkimizda.aspx#office"><img src="../images/klinik4.jpg"alt="" /></a>
+								</figure>
+							</div><!-- /.thumb --> 
+                                       
+                            </div><!-- /.row -->
+                            
+                    </div>
+                  <!-- /.col -->
+                <div class="col-md-3 col-sm-6 inner">
+                    <h4>UNSERE SOZIALE MEDIEN</h4>
+
+                    <div class="row thumbs gap-xs">
+
+                        <div class="col-xs-6 thumb reset-padding">
+                            
+                            <a href="https://www.facebook.com/estenuance/" target="_blank" class="btn-share-xs">
+							<i class="icon-s-facebook"></i>
+						</a>
+                            
+                        </div>
+                        <!-- /.thumb -->
+
+                        <div class="col-xs-6 thumb">
+                                <a href="https://www.instagram.com/estenuance/" target="_blank" class="btn-share-xs">
+							<i class="icon-s-instagram"></i>
+						</a>
+                        </div>
+                        <!-- /.thumb -->
+
+                        <div class="col-xs-6 thumb">
+                               <a href="https://twitter.com/estenuance/" target="_blank" class="btn-share-xs">
+							<i class="icon-s-twitter"></i>
+						</a>
+                        </div>
+                        
+                        <!-- /.thumb -->
+
+                        <div class="col-xs-6 thumb">
+                                <a href="https://www.youtube.com/channel/UCPaO2LyoICe3G6H8bZEDxww" target="_blank" class="btn-share-xs">
+							<i class="icon-s-youtube"></i>
+						</a>
+                        </div>
+                        <!-- /.thumb -->
+
+                        <div class="col-xs-6 thumb">
+                                <a href="https://plus.google.com/116939122685153038938" target="_blank" class="btn-share-xs">
+							<i class="icon-s-gplus"></i>
+						</a>
+                        </div>
+                        <!-- /.thumb -->
+
+                        <div class="col-xs-6 thumb">
+                                <a href="#" class="btn-share-xs">
+							<i class="icon-s-linkedin"></i>
+						</a>
+                        </div>
+                        <!-- /.thumb -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.col -->
+                <div class="col-md-3 col-sm-6 inner">
+                    <h4>RUFEN SIE UNSN</h4>
+                        <ul class="contacts">
+                        <li><i class="icon-location contact"></i>Teşfikiye Hakkı Yeten Caddesi No: 11 Fulya Terrace Center ŞİŞLİ/İSTANBUL</li>
+                        <li><i class="icon-mobile contact"></i>+90 (544) 467 1609</li>
+                       
+                        <li><a href="#"><i class="icon-mail-1 contact"></i>info@estenuance.com</a></li>
+                    </ul>
+                    <!-- /.contacts -->
+                </div>
+                <!-- /.col -->
+                
+            
+            </div> <!----.row--->
+                </div>  <!-- .container -->
+       
+      
+
+        <div class="footer-bottom">
+            <div class="container inner">
+                <p class="pull-left">© 2016 Estenuance / Soredev. Alle Rechte vorbehalten</p>
+                <ul class="footer-menu pull-right">
+                    <li><a href="Default.aspx">Startseite</a></li>
+                    <li><a href="sacekimi.aspx">Haartransplantation</a></li>
+                    <li><a href="sactedavileri.aspx">Haarbehandlungen</a></li>
+                    <li><a href="hakkimizda.aspx">Über Uns</a></li>
+                    <li><a href="blog.aspx">Blog</a></li>
+                    <li><a href="iletisim.aspx">Kontakt</a></li>
+                </ul>
+                <!-- .footer-menu -->
+            </div>
+            <!-- .container -->
+        </div>
+        <!-- .footer-bottom -->
+    </footer>
+
+    <!-- ============================================================= FOOTER : BİTİŞ
+         ============================================================= -->
+
+    <!-- JavaScripts placed at the end of the document so the pages load faster -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.easing.1.3.min.js"></script>
+    <script src="../js/jquery.form.js"></script>
+    <script src="../js/jquery.validate.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/aos.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/jquery.isotope.min.js"></script>
+    <script src="../js/imagesloaded.pkgd.min.js"></script>
+    <script src="../js/jquery.easytabs.min.js"></script>
+    <script src="../js/viewport-units-buggyfill.js"></script>
+    <script src="../js/scripts.js"></script>
+    <script src="../js/custom.js"></script>
+
+    
+    
+
+
+
+</body>
+</html>
